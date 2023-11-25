@@ -136,7 +136,6 @@ public class GameManager : MonoBehaviour
     public Car LoadCarStartMenu()
     {
         Car carToReturn = Game.CarsStorage.GetCarById(cars[selectedCarIndex]);
-        Debug.Log(carToReturn.Name);
 
         controlText.text = carToReturn.Control.ToString();
 
@@ -194,7 +193,6 @@ public class GameManager : MonoBehaviour
             {
                 stopIncreasingSpeed = true;
             }
-            Debug.Log(gameSpeed);
         }
     }
 
@@ -220,7 +218,6 @@ public class GameManager : MonoBehaviour
     public void QuitGame()
     {
         SceneManager.LoadScene("GameScene");
-        Debug.Log("QUIT");
     }
 
     public void GetCoin()
@@ -251,8 +248,6 @@ public class GameManager : MonoBehaviour
         finalCoinsText.text += coins.ToString();
         finalCoinsText.text += " coins";
         pauseMenu.SetActive(true);
-        //gameSpeed = initialGameSpeed;
-        //lives = maxLives;
     }
 
     public void UpdateLives()

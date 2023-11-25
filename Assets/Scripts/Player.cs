@@ -67,18 +67,18 @@ public class Player : MonoBehaviour
                 velocity.x = 0;
             }
         }
-        //if (velocity.x == 0)
-        //{
-        //    rigidbody2D.rotation = 90;
-        //}
-        //else if (velocity.x < 0) 
-        //{
-        //    rigidbody2D.rotation = velocity.x * 45;
-        //}
-        //else
-        //{
-        //    rigidbody2D.rotation = 270 - (velocity.x * 45);
-        //}
+        if (velocity.x == 0)
+        {
+            rigidbody2D.rotation = 90;
+        }
+        else if (velocity.x < 0)
+        {
+            rigidbody2D.rotation = 100;
+        }
+        else
+        {
+            rigidbody2D.rotation = 80;
+        }
         rigidbody2D.velocity = velocity;
     }
 
@@ -93,6 +93,11 @@ public class Player : MonoBehaviour
             else
             {
                 haltMoving = -1;
+            }
+
+            if ((haltMoving < 0 && rigidbody2D.velocity.x > 0) || (haltMoving > 0 && rigidbody2D.velocity.x < 0)) 
+            {
+                return;
             }
             rigidbody2D.velocity = Vector2.zero;
         }
