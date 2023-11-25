@@ -14,15 +14,32 @@ public class Player : MonoBehaviour
     private int haltMoving = 0;
 
     private float horizontalSpeed = 0;
+
+    [SerializeField]
+    private int control = 0;
+
+    [SerializeField]
+    private int controlToSeconds = 0;
+
+    [SerializeField]
+    private int maxLives = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        UpdatePlayerStats();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+       
+    }
+
+    void UpdatePlayerStats()
+    {
+        GameManager.instance.maxLives = maxLives;
+        GameManager.instance.UpdateLives();
+        GameManager.instance.timeToIncreaseSpeed = GameManager.instance.minTimeToIncreaseSpeed + ((control - 1) * controlToSeconds);
     }
 
     public void Move(InputAction.CallbackContext context)

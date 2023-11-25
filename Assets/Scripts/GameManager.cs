@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance { get; private set; }
-    [SerializeField]
-    private int maxLives = 0;
+    [HideInInspector]
+    public  int maxLives = 0;
     private int lives = 0;
     private int coins = 0;
 
@@ -33,8 +34,10 @@ public class GameManager : MonoBehaviour
 
     private float timerSpawnCoins = 0;
 
-    [SerializeField]
-    private float timeToIncreaseSpeed = 0;
+    public float minTimeToIncreaseSpeed = 0;
+
+    [HideInInspector]
+    public float timeToIncreaseSpeed = 0;
 
     [SerializeField]
     private float increaseOfSpeed = 0;
@@ -45,6 +48,28 @@ public class GameManager : MonoBehaviour
     private float timerSpeed = 0;
 
     private bool stopIncreasingSpeed = false;
+
+    [SerializeField]
+    private int timesNeededSpeedIncreaseToIncreaseInstantiations = 0;
+
+    private int timesSpeedIncreased = 0;
+
+    private int timesInstantiateAtTheSameTime = 0;
+
+    [SerializeField]
+    private TextMeshProUGUI coinsText = null;
+
+    [SerializeField]
+    private TextMeshProUGUI livesText = null;
+
+    [SerializeField]
+    private TextMeshProUGUI finalCoinsText = null;
+
+    [SerializeField]
+    private GameObject pauseMenu = null;
+
+    [SerializeField]
+    private GameObject pauseButton = null;
 
     private void Awake()
     {
@@ -59,6 +84,10 @@ public class GameManager : MonoBehaviour
         timerSpeed = timeToIncreaseSpeed + Time.time;
         gameSpeed = initialGameSpeed;
         lives = maxLives;
+        timesSpeedIncreased = 0;
+        timesInstantiateAtTheSameTime = 1;
+        coins = 0;
+        UpdateCoinsText();
     }
 
     // Update is called once per frame
@@ -66,21 +95,16 @@ public class GameManager : MonoBehaviour
     {
         if (timerSpawnObstacles < Time.time)
         {
-            Vector3 positionToInstantiate = Vector3.zero;
-            positionToInstantiate.x = Random.Range(topLeft.position.x, topRight.position.x);
-            positionToInstantiate.y = topRight.position.y;
-            positionToInstantiate.z = -0.1f;
-            Instantiate(obstaclePrefab, positionToInstantiate, Quaternion.identity);
+            for(int i = 0; i < timesInstantiateAtTheSameTime; i++)
+            {
+                Spawn(obstaclePrefab);
+            }
             timerSpawnObstacles = timeToSpawnObstacles * (initialGameSpeed / gameSpeed);
             timerSpawnObstacles += Time.time;
         }
         else if (timerSpawnCoins < Time.time)
         {
-            Vector3 positionToInstantiate = Vector3.zero;
-            positionToInstantiate.x = Random.Range(topLeft.position.x, topRight.position.x);
-            positionToInstantiate.y = topRight.position.y;
-            positionToInstantiate.z = -0.1f;
-            Instantiate(coinPrefab, positionToInstantiate, Quaternion.identity);
+            Spawn(coinPrefab);
             timerSpawnCoins = timeToSpawnCoins * (initialGameSpeed / gameSpeed);
             timerSpawnCoins += Time.time;
         }
@@ -88,6 +112,12 @@ public class GameManager : MonoBehaviour
         if (!stopIncreasingSpeed && timerSpeed < Time.time)
         {
             gameSpeed *= increaseOfSpeed;
+            timesSpeedIncreased++;
+            if(timesSpeedIncreased >=timesNeededSpeedIncreaseToIncreaseInstantiations)
+            {
+                timesSpeedIncreased = 0;
+                timesInstantiateAtTheSameTime++;
+            }
             timerSpeed = timeToIncreaseSpeed + Time.time;
             if(gameSpeed >= maxSpeed)
             {
@@ -97,19 +127,45 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void Spawn(GameObject prefab)
+    {
+        Vector3 positionToInstantiate = Vector3.zero;
+        positionToInstantiate.x = Random.Range(topLeft.position.x, topRight.position.x);
+        positionToInstantiate.y = topRight.position.y;
+        positionToInstantiate.z = -0.1f;
+        Instantiate(prefab, positionToInstantiate, Quaternion.identity);
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1;
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("QUIT");
+    }
+
     public void GetCoin()
     {
         coins++;
-        Debug.Log("Coins: " + coins);
+        UpdateCoinsText();
     }
 
     public void LoseLife()
     {
         lives--;
+        UpdateLivesText();
         stopIncreasingSpeed = false;
         gameSpeed = initialGameSpeed;
+        timesInstantiateAtTheSameTime = 1;
+        timesSpeedIncreased = 0;
         timerSpeed = timeToIncreaseSpeed + Time.time;
-        Debug.Log("Lives: " + lives);
         if (lives <= 0)
         {
             Die();
@@ -117,8 +173,29 @@ public class GameManager : MonoBehaviour
     }
     private void Die()
     {
-        Debug.Log("Player Dead");
-        gameSpeed = initialGameSpeed;
+        PauseGame();
+        pauseButton.SetActive(false);
+        finalCoinsText.text = "You got: ";
+        finalCoinsText.text += coins.ToString();
+        finalCoinsText.text += " coins";
+        pauseMenu.SetActive(true);
+        //gameSpeed = initialGameSpeed;
+        //lives = maxLives;
+    }
+
+    public void UpdateLives()
+    {
         lives = maxLives;
+        UpdateLivesText();
+    }
+
+    void UpdateLivesText()
+    {
+        livesText.text = lives.ToString();
+    }
+
+    void UpdateCoinsText()
+    {
+        coinsText.text = coins.ToString();
     }
 }

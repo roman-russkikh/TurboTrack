@@ -21,9 +21,22 @@ public class MovingObject : MonoBehaviour
         }
         else if (collision.tag == "Coin")
         {
-            Vector2 newPosition = rigidbody2D.position;
-            newPosition.y ++;
-            rigidbody2D.position = newPosition;
+            IncreasePosition();
         }
+        else if (collision.tag == tag)
+        {
+            Vector2 positionCollision = collision.transform.position;
+            if (positionCollision.x < transform.position.x || (positionCollision.x==transform.position.x && positionCollision.y > transform.position.y))
+            {
+                IncreasePosition();
+            }
+        }
+    }
+
+    void IncreasePosition()
+    {
+        Vector2 newPosition = rigidbody2D.position;
+        newPosition.y++;
+        rigidbody2D.position = newPosition;
     }
 }
