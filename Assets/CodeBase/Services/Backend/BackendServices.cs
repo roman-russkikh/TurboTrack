@@ -1,11 +1,7 @@
+using System;
 using System.Collections;
-using System.Diagnostics;
-using CodeBase.Data;
 using CodeBase.Infrastructure;
 using Cysharp.Threading.Tasks;
-using Newtonsoft.Json;
-using Openfort;
-using UnityEngine;
 using UnityEngine.Networking;
 using Debug = UnityEngine.Debug;
 
@@ -31,6 +27,8 @@ namespace CodeBase.Services.Backend
 
         private const string RequestContentType = "application/json";
         private const string _authToken = "sk_test_67a85e48-566f-5485-9679-77c8cd1b5be6";
+
+        public static Action OnCoinsAddedToWallet;
 
         public void AddCoinsToWallet(int coinsToAdd)
         {
@@ -104,6 +102,7 @@ namespace CodeBase.Services.Backend
 
             await request.SendWebRequest();
             Debug.Log("Done");
+            OnCoinsAddedToWallet?.Invoke();
         }
         
         private async UniTask RemoveCoinsTask(int coinsToRemove)

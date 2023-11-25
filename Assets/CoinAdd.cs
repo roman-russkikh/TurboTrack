@@ -9,21 +9,9 @@ public class CoinAdd : MonoBehaviour
     public GameObject coin;
     public List<GameObject> tracks;
     public int trackNumber = 0;
-    private int coins = 0;
+    public int coins = 0;
     public TMP_Text coinText;
     public GameObject fade;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -1,6 +1,8 @@
 ﻿using System;
 using CodeBase.Infrastructure;
+using CodeBase.Services.Backend;
 using CodeBase.Services.PersistentProgress;
+using Cysharp.Threading.Tasks.Triggers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,6 +16,10 @@ namespace CodeBase.UI.Windows.Shop
     [SerializeField] private Button _openGarageButton;
     [SerializeField] private GameObject _garagePanel;
     [SerializeField] private GameObject _popUpNoCars;
+
+    [SerializeField] private Button _claimCoinsButton;
+    [SerializeField] private CoinAdd _coinController;
+    
         private void OnEnable()
     {
       Initialize();
@@ -26,6 +32,7 @@ namespace CodeBase.UI.Windows.Shop
 
     private void Initialize()
     {
+      SetClaimButtonActivity(true);
       InitSubscriptions();
     }
 
@@ -33,10 +40,14 @@ namespace CodeBase.UI.Windows.Shop
     {
       _startMiniGameButton.onClick.AddListener(StartMiniGame);
       _openGarageButton.onClick.AddListener(OpenGaragePopUp);
+      _claimCoinsButton.onClick.AddListener(GiveIdleCoinsToPlayer);
+      BackendServices.OnCoinsAddedToWallet += () => SetClaimButtonActivity(true);
     }
 
     private void Cleanup()
     {
+      BackendServices.OnCoinsAddedToWallet -= () => SetClaimButtonActivity(true);
+      _claimCoinsButton.onClick.RemoveAllListeners();
       _startMiniGameButton.onClick.RemoveAllListeners();
       _openGarageButton.onClick.RemoveAllListeners();
     }
@@ -60,6 +71,18 @@ namespace CodeBase.UI.Windows.Shop
             _openGarageButton.gameObject.SetActive(false);
             _startMiniGameButton.gameObject.SetActive(false);
             _garagePanel.SetActive(true);
+    }
+
+    private void GiveIdleCoinsToPlayer()
+    {
+      Game.Player.PlayerData.PlayerInventory.IncrementCoins(_coinController.coins);
+      SetClaimButtonActivity(false);
+      _coinController.coins = 0;
+    }
+
+    private void SetClaimButtonActivity(bool state)
+    {
+      _claimCoinsButton.interactable = state;
     }
   }
 }
