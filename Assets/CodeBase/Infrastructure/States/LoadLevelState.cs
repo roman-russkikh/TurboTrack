@@ -41,15 +41,13 @@ namespace CodeBase.Infrastructure.States
 
     private async void OnLoaded()
     {
-      await InitUIRoot();
-      await InitGameWorld();
+      //await InitGameWorld();
       InformProgressReaders();
 
       _stateMachine.Enter<GameLoopState>();
     }
 
-    private async Task InitUIRoot() => 
-      await _uiFactory.CreateUIRoot();
+    
 
     private void InformProgressReaders()
     {
