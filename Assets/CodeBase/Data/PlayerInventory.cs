@@ -34,8 +34,28 @@ namespace CodeBase.Data
             Game.Player.Save();
         }
         
+        public void DecrementCoins(int coinsToRemove)
+        {
+            var tempCoinsAmount = _coinsAmount;
+            tempCoinsAmount -= coinsToRemove;
+            
+            if (tempCoinsAmount < 0)
+            {
+                Debug.Log("Not enough coins");
+                return;
+            }
+            
+            _coinsAmount = tempCoinsAmount;
+            var backendServices = AllServices.Container.Single<BackendServices>();
+            backendServices.AddCoinsToWallet(coinsToRemove);
+            Game.Player.Save();
+        }
+        
         public void AddCarToCollection(int carIdToAdd)
         {
+            if (_ownedCarIds.Contains(carIdToAdd))
+                return;
+            
             _ownedCarIds.Add(carIdToAdd);
             var backendServices = AllServices.Container.Single<BackendServices>();
             backendServices.AddCarToCollection(carIdToAdd);
