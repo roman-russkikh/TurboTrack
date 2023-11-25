@@ -18,7 +18,9 @@ namespace CodeBase.Services.Backend
 
         private const string CoinMasterPlayerId = "pla_ddea48d1-0539-44a9-b13a-d681d0358b07";
         private const string CoinContractId = "con_79fdf2f2-2f56-41eb-b3ae-eb5a0b2b7e2e";
+        private const string CarContractId = "con_0e1e7591-904a-4fb5-8a4b-6c9bf89ecfbc";
         private const string CoinPolicyId = "pol_e33eb4d4-012c-4771-9e72-cbb50c711de7";
+        private const string CarPolicyId = "pol_3780249a-c087-4c1d-805c-4b9126456e5e";
 
         private const int ChainId = 421613;
         
@@ -42,11 +44,58 @@ namespace CodeBase.Services.Backend
         
         public void AddCarToCollection(int carIdToAdd)
         {
+            //AddCarToWalletTask(carIdToAdd);
+        }
+
+        private async UniTask AddCarToWalletTask(int id)
+        {
+            var myPlayerId = Game.Player.ID;
+            var car = Game.CarsStorage.GetCarById(id);
+            var carIndex = Game.CarsStorage.Cars.IndexOf(car);
+            var carCost = (ulong)car.Cost * 1000000000000000000;
+            var _data = "0x";
+            var coinAddress = "0xf48B60dd98B0373d61690A9925f9cEea7630133c";
             
+            string carToAddRequest = $"{{ " +
+                                      $"\"player\": \"{myPlayerId}\", " +
+                                      $"\"chainId\": \"{ChainId}\", " +
+                                      $"\"policy\": \"{CarPolicyId}\", " +
+                                      $"\"optimistic\": false, " +
+                                      $"\"interactions\": [{{ " +
+                                      $"\"contract\": \"{CoinContractId}\", " +
+                                      $"\"functionName\": \"approve\", " +
+                                      $"\"functionArgs\": [\"{CarContractId}\", \"{carCost}\"] " +
+                                      $"}}, {{ " +
+                                      $"\"contract\": \"{CarContractId}\", " +
+                                      $"\"functionName\": \"claim\", " +
+                                      $"\"value\": \"0\", " +
+                                      $"\"functionArgs\": [" +
+                                      $"\"{myPlayerId}\", " +
+                                      $"{carIndex}, " +
+                                      $"{1}, " +
+                                      $"\"{coinAddress}\", " +
+                                      $"\"{carCost}\", " +
+                                      $"[[\"0x0000000000000000000000000000000000000000000000000000000000000000\"],{ 1 },\"{carCost}\",\"{CoinContractId}\"], " + 
+                                      $"\"{_data}\"" +
+                                      $"] }}" +
+                                      $"] }}";
+                                      //$"{{[\"0x0000000000000000000000000000000000000000000000000000000000000000\"],{ 1 },\"{carCost}\",\"{CoinContractId}\", \"{_data}\" }}";
+            
+                                      // Create new player
+                                      var request =
+                                          UnityWebRequest.Post(JsonUrlTransaction, carToAddRequest,
+                                              RequestContentType); // use get to get some specific player of all of them if requested with id
+
+                                      request.SetRequestHeader("Authorization", $"Bearer {_authToken}");
+                                      //request.SetRequestHeader("Content-Type", "application/json");
+
+                                      await request.SendWebRequest(); // Update my id
+                                      Debug.Log("Added");
         }
         public BackendServices()
         {
             InitTask();
+            AddCarToCollection(2525);
         }
         async UniTask InitTask()
         {
