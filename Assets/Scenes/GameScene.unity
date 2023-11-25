@@ -795,6 +795,7 @@ MonoBehaviour:
   - {fileID: 2119755313}
   trackNumber: 0
   coinText: {fileID: 1231178279}
+  fade: {fileID: 1127464940}
 --- !u!61 &1008079974
 BoxCollider2D:
   m_ObjectHideFlags: 0

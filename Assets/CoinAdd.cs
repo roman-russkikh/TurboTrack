@@ -11,6 +11,7 @@ public class CoinAdd : MonoBehaviour
     public int trackNumber = 0;
     private int coins = 0;
     public TMP_Text coinText;
+    public GameObject fade;
 
     // Start is called before the first frame update
     void Start()
@@ -34,15 +35,30 @@ public class CoinAdd : MonoBehaviour
             if (coins == 5)
             {
                 trackNumber = 1;
-                ChangeTrack();
+                StartCoroutine(TransicionCambio());
             }
             else if (coins >= 10)
             {
-                trackNumber = 2;
-                ChangeTrack();
+                if (coins == 10)
+                {
+                    trackNumber = 2;
+                    StartCoroutine(TransicionCambio());
+                } else
+                {
+                    ChangeTrack();
+                }
+
             }
             coinText.text = coins.ToString();
         }
+    }
+
+    private IEnumerator TransicionCambio()
+    {
+        fade.GetComponent<Animator>().enabled = true;
+        fade.GetComponent<Animator>().Play("FadesAnim");
+        yield return new WaitForSeconds(1f);
+        ChangeTrack();
     }
 
     private void ChangeTrack()
