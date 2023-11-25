@@ -45,7 +45,6 @@ namespace CodeBase.UI.Windows.Shop
     {
             if (Game.Player.PlayerData.PlayerInventory._ownedCarIds.Count > 0)
             {
-                Debug.Log(Game.Player.PlayerData.PlayerInventory._ownedCarIds[0]);
                 SceneManager.LoadScene("Minigame");
             }
             else

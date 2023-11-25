@@ -104,9 +104,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //TODO
-        //cars = Game.Player.PlayerData.PlayerInventory._ownedCarIds;
-        cars = new List<int>() { 2525, 3636 };
+        cars = Game.Player.PlayerData.PlayerInventory._ownedCarIds;
 
         selectedCarIndex = 0;
         LoadCarStartMenu();

@@ -35,6 +35,9 @@ public class Garage : MonoBehaviour
     private TextMeshProUGUI costText = null;
 
     [SerializeField]
+    private TextMeshProUGUI coinsText = null;
+
+    [SerializeField]
     private GameObject buyButton = null;
 
     [SerializeField]
@@ -98,8 +101,14 @@ public class Garage : MonoBehaviour
         if (Game.Player.PlayerData.PlayerInventory._coinsAmount >= cars[selectedCarIndex].Cost)
         {
             Game.Player.PlayerData.PlayerInventory.DecrementCoins(cars[selectedCarIndex].Cost);
-            Game.Player.PlayerData.PlayerInventory.AddCarToCollection(selectedCarIndex);
+            Game.Player.PlayerData.PlayerInventory.AddCarToCollection(cars[selectedCarIndex].Id);
+            UpdateCoins();
         }
+    }
+
+    public void UpdateCoins()
+    {
+        coinsText.text = Game.Player.PlayerData.PlayerInventory._coinsAmount.ToString();
     }
 
     public void LoadCarStartMenu()
@@ -122,6 +131,8 @@ public class Garage : MonoBehaviour
         controlText.text = car.Control.ToString();
 
         maxLivesText.text = car.MaxLives.ToString();
+
+        UpdateCoins();
 
         if (Game.Player.PlayerData.PlayerInventory._ownedCarIds.Contains(car.Id))
         {
