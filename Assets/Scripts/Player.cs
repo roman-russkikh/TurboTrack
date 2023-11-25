@@ -18,8 +18,6 @@ public class Player : MonoBehaviour
     [SerializeField]
     private SpriteRenderer spriteRenderer = null;
 
-    public Sprite spriteCar = null;
-
     private int haltMoving = 0;
 
     private float horizontalSpeed = 0;
@@ -49,7 +47,6 @@ public class Player : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
-        Debug.Log("III");
         if (context.started)
         {
             return;

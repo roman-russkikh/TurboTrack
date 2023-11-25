@@ -217,6 +217,7 @@ public class GameManager : MonoBehaviour
     public void QuitGame()
     {
         Game.Player.PlayerData.PlayerInventory.IncrementCoins(coins);
+        ResumeGame();
         SceneManager.LoadScene("GameScene");
     }
 
