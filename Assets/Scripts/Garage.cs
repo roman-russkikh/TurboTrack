@@ -43,6 +43,8 @@ public class Garage : MonoBehaviour
     [SerializeField]
     private GameObject selectButton = null;
 
+    public SpriteRenderer carRenderer = null;
+
     private List<Car> cars = null;
 
 
@@ -69,6 +71,22 @@ public class Garage : MonoBehaviour
         {
             carImage.gameObject.SetActive(false);
         }
+        else
+        {
+            int idCarSelected = Game.Player.PlayerData.PlayerInventory._idleSelectedCar;
+            if (idCarSelected == -1)
+            {
+                return;
+            }
+            selectedCarIndex = cars.IndexOf(Game.CarsStorage.GetCarById(idCarSelected));
+            UpdateSpriteCar(carRenderer);
+        }
+    }
+
+    public void SelectCar()
+    {
+        Game.Player.PlayerData.PlayerInventory._idleSelectedCar = cars[selectedCarIndex].Id;
+        Game.Player.Save();
     }
 
     private void OnEnable()

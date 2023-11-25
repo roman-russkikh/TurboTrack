@@ -3344,6 +3344,10 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 825675581931357330, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+      propertyPath: carRenderer
+      value: 
+      objectReference: {fileID: 2198193547576648257}
     - target: {fileID: 1000317222186503608, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
       propertyPath: m_fontSize
       value: 12
@@ -3781,6 +3785,14 @@ PrefabInstance:
       value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1144786359}
@@ -3788,6 +3800,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1731268107}
+    - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 1953972535}
+    - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
@@ -3797,9 +3817,25 @@ PrefabInstance:
       value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: SelectCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: Garage, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 2198193547576648257}
+    - target: {fileID: 8981020031208851876, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3815,6 +3851,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2433040937932529391, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
   m_PrefabInstance: {fileID: 1953972532}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1953972535 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 825675581931357330, guid: 28e6f5f314807dc44808d5dd1d03f20a, type: 3}
+  m_PrefabInstance: {fileID: 1953972532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953972533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eab8e77f5a91fbf47a1eb662e07c62b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1965814044
 GameObject:
   m_ObjectHideFlags: 0
