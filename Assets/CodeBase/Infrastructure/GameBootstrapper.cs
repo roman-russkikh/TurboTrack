@@ -1,4 +1,5 @@
-﻿using CodeBase.Infrastructure.States;
+﻿using CodeBase.Cars;
+using CodeBase.Infrastructure.States;
 using CodeBase.Logic;
 using UnityEngine;
 
@@ -7,7 +8,7 @@ namespace CodeBase.Infrastructure
   public class GameBootstrapper : MonoBehaviour, ICoroutineRunner
   {
     public LoadingCurtain CurtainPrefab;
-    public ScriptableObject CarsStorage;
+    public CarStorage CarsStorage;
     
     private Game _game;
 
