@@ -92,5 +92,10 @@ namespace Codebase.UI
 
             return widgets;
         }
+        
+        /* UIHelper.InitWidgets(_animalWidgets, sortedAnimals.Count, (w, index ) =>
+            {
+                w.Init(sortedAnimals[index]);
+            });*/
     }
 }
