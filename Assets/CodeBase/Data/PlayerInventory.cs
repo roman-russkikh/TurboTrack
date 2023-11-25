@@ -36,6 +36,9 @@ namespace CodeBase.Data
         
         public void AddCarToCollection(int carIdToAdd)
         {
+            if (_ownedCarIds.Contains(carIdToAdd))
+                return;
+            
             _ownedCarIds.Add(carIdToAdd);
             var backendServices = AllServices.Container.Single<BackendServices>();
             backendServices.AddCarToCollection(carIdToAdd);
