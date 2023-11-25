@@ -6,6 +6,7 @@ using Cysharp.Threading.Tasks;
 using Openfort;
 using UnityEngine.Networking;
 using Debug = UnityEngine.Debug;
+ /// use packages from here https://github.com/openfort-xyz/openfort-csharp-unity
 
 namespace CodeBase.Services.Backend
 {
