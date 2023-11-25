@@ -1,3 +1,4 @@
+using CodeBase.Cars;
 using CodeBase.Infrastructure.States;
 using CodeBase.Logic;
 using CodeBase.Services;
@@ -9,9 +10,9 @@ namespace CodeBase.Infrastructure
   public class Game
   {
     public GameStateMachine StateMachine;
-    public static ScriptableObject CarsStorage;
+    public static CarStorage CarsStorage;
 
-    public Game(ICoroutineRunner coroutineRunner, LoadingCurtain curtain, ScriptableObject carsStorage)
+    public Game(ICoroutineRunner coroutineRunner, LoadingCurtain curtain, CarStorage carsStorage)
     {
       CarsStorage = carsStorage;
       StateMachine = new GameStateMachine(new SceneLoader(coroutineRunner), curtain, AllServices.Container);
