@@ -100,6 +100,7 @@ public class Player : MonoBehaviour
                 return;
             }
             rigidbody2D.velocity = Vector2.zero;
+            rigidbody2D.rotation = 90;
         }
         else if (collision.tag == "Obstacle")
         {

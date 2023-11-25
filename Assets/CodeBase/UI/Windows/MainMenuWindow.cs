@@ -11,7 +11,8 @@ namespace CodeBase.UI.Windows.Shop
   {
     [SerializeField] private Button _startMiniGameButton;
     [SerializeField] private Button _openGarageButton;
-    private void OnEnable()
+    [SerializeField] private GameObject _garagePanel;
+        private void OnEnable()
     {
       Initialize();
     }
@@ -45,7 +46,9 @@ namespace CodeBase.UI.Windows.Shop
     
     private void OpenGaragePopUp()
     {
-      
+            _openGarageButton.gameObject.SetActive(false);
+            _startMiniGameButton.gameObject.SetActive(false);
+            _garagePanel.SetActive(true);
     }
   }
 }

@@ -2602,6 +2602,7 @@ MonoBehaviour:
   pauseButton: {fileID: 1382319709}
   rightButton: {fileID: 1051612994}
   leftButton: {fileID: 2005960572}
+  carImage: {fileID: 1216149776}
   controlText: {fileID: 69515921}
   maxLivesText: {fileID: 1490009698}
   player: {fileID: 1579972883}
