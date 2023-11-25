@@ -12,7 +12,7 @@ namespace CodeBase.Infrastructure
   {
     public GameStateMachine StateMachine;
     public static CarStorage CarsStorage;
-    public static Player Player;
+    public static Data.Player Player;
 
     public Game(ICoroutineRunner coroutineRunner, LoadingCurtain curtain, CarStorage carsStorage)
     {

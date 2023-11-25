@@ -25,7 +25,7 @@ namespace CodeBase.Services.Backend
         }
         async UniTask InitTask()
         {
-            var player = Player.Load();
+            var player = Data.Player.Load();
             if (player == null)
             {
                 // Create new player
@@ -38,7 +38,7 @@ namespace CodeBase.Services.Backend
 
                 await request.SendWebRequest();
 
-                Game.Player = new Player(_playerId);
+                Game.Player = new Data.Player(_playerId);
                 Game.Player.Save();
             }
             else
