@@ -30,6 +30,7 @@ public class CoinAdd : MonoBehaviour
         if (collision.tag.Equals("Finish"))
         {
             GameObject coinInst = Instantiate(coin, transform);
+            coinInst.GetComponent<AudioSource>().Play();
             Destroy(coinInst, 0.5f);
             coins++;
             if (coins == 5)

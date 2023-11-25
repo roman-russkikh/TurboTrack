@@ -18,6 +18,9 @@ public class coinSound : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        GetComponent<AudioSource>().Play();
+        if (collision.tag.Equals("Player"))
+        {
+            GetComponent<AudioSource>().Play();
+        }
     }
 }
