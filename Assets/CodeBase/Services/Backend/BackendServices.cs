@@ -133,26 +133,8 @@ namespace CodeBase.Services.Backend
             await request.SendWebRequest();
             Debug.Log("Done removed");
         }
-        
 
-        private async UniTask InitWallet()
-        {
-            // Create new player
-            var request =
-                UnityWebRequest.Post(JsonUrlWallet, PostDataWallet,
-                    RequestContentType); // use get to get some specific player of all of them if requested with id
-
-            request.SetRequestHeader("Authorization", $"Bearer {_authToken}");
-            //request.SetRequestHeader("Content-Type", "application/json");
-
-            await request.SendWebRequest();
-        }
-
-        private void CreatePlayer()
-        {
-            
-        }
-
+       
         private  IEnumerator Test()
         {
             string url = "https://api.openfort.xyz/v1/players";
@@ -191,6 +173,19 @@ namespace CodeBase.Services.Backend
             int endIndex = jsonString.IndexOf("\"", startIndex + 1); // Look for the next quotation mark after the starting quote
 
             return jsonString.Substring(startIndex, endIndex - startIndex);
+        }
+        
+        private async UniTask InitWallet()
+        {
+            // Create new player
+            var request =
+                UnityWebRequest.Post(JsonUrlWallet, PostDataWallet,
+                    RequestContentType); // use get to get some specific player of all of them if requested with id
+
+            request.SetRequestHeader("Authorization", $"Bearer {_authToken}");
+            //request.SetRequestHeader("Content-Type", "application/json");
+
+            await request.SendWebRequest();
         }
     }
 }
