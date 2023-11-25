@@ -1,4 +1,5 @@
 ﻿using System;
+using CodeBase.Infrastructure;
 using CodeBase.Services.PersistentProgress;
 using TMPro;
 using UnityEngine;
@@ -11,7 +12,9 @@ namespace CodeBase.UI.Windows.Shop
   {
     [SerializeField] private Button _startMiniGameButton;
     [SerializeField] private Button _openGarageButton;
-    private void OnEnable()
+    [SerializeField] private GameObject _garagePanel;
+    [SerializeField] private GameObject _popUpNoCars;
+        private void OnEnable()
     {
       Initialize();
     }
@@ -40,12 +43,23 @@ namespace CodeBase.UI.Windows.Shop
 
     private void StartMiniGame()
     {
-            SceneManager.LoadScene("Minigame");
+            if (Game.Player.PlayerData.PlayerInventory._ownedCarIds.Count > 0)
+            {
+                SceneManager.LoadScene("Minigame");
+            }
+            else
+            {
+                _openGarageButton.gameObject.SetActive(false);
+                _startMiniGameButton.gameObject.SetActive(false);
+                _popUpNoCars.SetActive(true);
+            }
     }
     
     private void OpenGaragePopUp()
     {
-      
+            _openGarageButton.gameObject.SetActive(false);
+            _startMiniGameButton.gameObject.SetActive(false);
+            _garagePanel.SetActive(true);
     }
   }
 }

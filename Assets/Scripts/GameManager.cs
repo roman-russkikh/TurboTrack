@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -79,14 +80,14 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject leftButton = null;
 
+    [SerializeField]
+    private Image carImage = null;
 
     [SerializeField]
     private TextMeshProUGUI controlText = null;
 
     [SerializeField]
     private TextMeshProUGUI maxLivesText = null;
-
-    private Car selectedCar = null;
 
     private List<int> cars = null;
 
@@ -103,12 +104,10 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //TODO
-        //var cars = Game.Player.PlayerData.PlayerInventory._ownedCarIds;
-        cars = new List<int>() { 2525, 3636 };
+        cars = Game.Player.PlayerData.PlayerInventory._ownedCarIds;
 
         selectedCarIndex = 0;
-        selectedCar = LoadCarStartMenu();
+        LoadCarStartMenu();
 
         if (cars.Count <= 1)
         {
@@ -130,18 +129,18 @@ public class GameManager : MonoBehaviour
             selectedCarIndex = cars.Count - 1;
         }
 
-        selectedCar = LoadCarStartMenu();
+        LoadCarStartMenu();
     }
 
-    public Car LoadCarStartMenu()
+    public void LoadCarStartMenu()
     {
-        Car carToReturn = Game.CarsStorage.GetCarById(cars[selectedCarIndex]);
+        Car car = Game.CarsStorage.GetCarById(cars[selectedCarIndex]);
 
-        controlText.text = carToReturn.Control.ToString();
+        carImage.sprite = car.Sprite;
 
-        maxLivesText.text = carToReturn.MaxLives.ToString();
+        controlText.text = car.Control.ToString();
 
-        return carToReturn;
+        maxLivesText.text = car.MaxLives.ToString();
     }
 
     public void StartRace()
@@ -217,6 +216,7 @@ public class GameManager : MonoBehaviour
 
     public void QuitGame()
     {
+        Game.Player.PlayerData.PlayerInventory.IncrementCoins(coins);
         SceneManager.LoadScene("GameScene");
     }
 

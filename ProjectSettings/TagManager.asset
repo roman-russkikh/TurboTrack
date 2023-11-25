@@ -8,6 +8,7 @@ TagManager:
   - Destroy
   - Obstacle
   - Coin
+  - LoadingCurtain
   layers:
   - Default
   - TransparentFX
@@ -42,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Tracks+car
+    uniqueID: 2832303435
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

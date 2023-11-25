@@ -70,15 +70,15 @@ public class Player : MonoBehaviour
         }
         if (velocity.x == 0)
         {
-            rigidbody2D.rotation = 90;
+            rigidbody2D.rotation = 0;
         }
         else if (velocity.x < 0)
         {
-            rigidbody2D.rotation = 100;
+            rigidbody2D.rotation = 10;
         }
         else
         {
-            rigidbody2D.rotation = 80;
+            rigidbody2D.rotation = -10;
         }
         rigidbody2D.velocity = velocity;
     }
@@ -101,6 +101,7 @@ public class Player : MonoBehaviour
                 return;
             }
             rigidbody2D.velocity = Vector2.zero;
+            rigidbody2D.rotation = 0;
         }
         else if (collision.tag == "Obstacle")
         {
