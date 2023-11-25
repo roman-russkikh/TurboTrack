@@ -1,3 +1,4 @@
+using CodeBase.Infrastructure;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,11 +6,19 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+
+    public int carID = 0;
+
     [SerializeField]
     private float playerSpeed = 0;
 
     [SerializeField]
     private Rigidbody2D rigidbody2D = null;
+
+    [SerializeField]
+    private SpriteRenderer spriteRenderer = null;
+
+    public Sprite spriteCar = null;
 
     private int haltMoving = 0;
 
@@ -29,17 +38,13 @@ public class Player : MonoBehaviour
         UpdatePlayerStats();
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-       
-    }
-
     void UpdatePlayerStats()
     {
-        GameManager.instance.maxLives = maxLives;
+        var car = Game.CarsStorage.GetCarById(carID);
+        GameManager.instance.maxLives = car.MaxLives;
         GameManager.instance.UpdateLives();
-        GameManager.instance.timeToIncreaseSpeed = GameManager.instance.minTimeToIncreaseSpeed + ((control - 1) * controlToSeconds);
+        GameManager.instance.timeToIncreaseSpeed = GameManager.instance.minTimeToIncreaseSpeed + ((car.Control - 1) * controlToSeconds);
+        spriteRenderer.sprite = car.Sprite;
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -62,6 +67,18 @@ public class Player : MonoBehaviour
                 velocity.x = 0;
             }
         }
+        if (velocity.x == 0)
+        {
+            rigidbody2D.rotation = 90;
+        }
+        else if (velocity.x < 0)
+        {
+            rigidbody2D.rotation = 100;
+        }
+        else
+        {
+            rigidbody2D.rotation = 80;
+        }
         rigidbody2D.velocity = velocity;
     }
 
@@ -76,6 +93,11 @@ public class Player : MonoBehaviour
             else
             {
                 haltMoving = -1;
+            }
+
+            if ((haltMoving < 0 && rigidbody2D.velocity.x > 0) || (haltMoving > 0 && rigidbody2D.velocity.x < 0)) 
+            {
+                return;
             }
             rigidbody2D.velocity = Vector2.zero;
         }

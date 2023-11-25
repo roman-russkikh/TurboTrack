@@ -29,7 +29,7 @@ MonoBehaviour:
     MaxSpeed: 105
     MaxLives: 4
     Control: 2
-  - Id: 3636
+  - Id: 4747
     Sprite: {fileID: 117544489, guid: 6636fdd45bc639c4994af4a5a168a037, type: 3}
     Cost: 150
     Name: Pocket Rocket
@@ -37,7 +37,7 @@ MonoBehaviour:
     MaxSpeed: 105
     MaxLives: 4
     Control: 2
-  - Id: 3636
+  - Id: 5858
     Sprite: {fileID: -412151970, guid: 6636fdd45bc639c4994af4a5a168a037, type: 3}
     Cost: 200
     Name: Atom Accelerator
@@ -45,10 +45,10 @@ MonoBehaviour:
     MaxSpeed: 105
     MaxLives: 4
     Control: 2
-  - Id: 3636
+  - Id: 6969
     Sprite: {fileID: 529649905, guid: 6636fdd45bc639c4994af4a5a168a037, type: 3}
     Cost: 250
-    Name: TeenyTurbine
+    Name: Teeny Turbine
     Velocity: 6
     MaxSpeed: 105
     MaxLives: 4
