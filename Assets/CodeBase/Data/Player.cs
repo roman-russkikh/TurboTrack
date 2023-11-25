@@ -1,4 +1,5 @@
 using System;
+using Newtonsoft.Json;
 using UnityEngine;
 
 namespace CodeBase.Data
@@ -8,6 +9,9 @@ namespace CodeBase.Data
     {
         [SerializeField] private string _id = "";
         [SerializeField] private PlayerData _playerData;
+
+        [JsonIgnore]
+        public PlayerData PlayerData => _playerData;
 
         public Player(string id)
         {

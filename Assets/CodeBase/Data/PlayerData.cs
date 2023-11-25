@@ -1,4 +1,5 @@
 using System;
+using Newtonsoft.Json;
 using UnityEngine;
 
 namespace CodeBase.Data
@@ -7,6 +8,9 @@ namespace CodeBase.Data
     public class PlayerData
     {
         [SerializeField] private PlayerInventory _playerInventory;
+        
+        [JsonIgnore]
+        public PlayerInventory PlayerInventory => _playerInventory;
 
         public PlayerData()
         {
