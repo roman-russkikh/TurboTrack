@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace CodeBase.Cars
@@ -9,5 +10,11 @@ namespace CodeBase.Cars
     public class CarStorage : ScriptableObject
     {
         [SerializeField] public List<Car> Cars;
+        
+        public Car GetCarById(int id)
+        {
+         var car = Cars.FirstOrDefault(i => i.Id == id);
+         return car;
+        }
     }
 }
