@@ -1,0 +1,7369 @@
+fileFormatVersion: 2
+guid: f8f1e133fc44ba243949d3e615d2e5e7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf7800a8ce060b42adb4d7998ddcd5b
+      internalID: 905301792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b402d14c102b3740b6b48207119332f
+      internalID: -74165813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c70febbb664a1458b4f297469d8c2f
+      internalID: -345802774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48018eddff831a54bb492745b925fac0
+      internalID: 532903167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_4
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d68260f59d6e54db93966e22dda549
+      internalID: -1240623239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0803eb4c808631a4a9c78b82738af94a
+      internalID: -1759908611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_6
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10312cbf3fba8634ba228ef26f4815c0
+      internalID: -762597089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_7
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189e79768143a014a88b5049f4c75cab
+      internalID: -1799737712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_8
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3515ac04eefa84c984dfebc7a8b40f
+      internalID: 773811901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_9
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23462881645dc5a4abde8f4310a93808
+      internalID: -1796302929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_10
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38ce7e99b771ba418a665730f813cc5
+      internalID: 360705926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_11
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3e7dee67bbcdf42ba2c2667481d89d
+      internalID: 1044849314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_12
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002b3f4121d4c064ba2ba245f8883604
+      internalID: 144150594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_13
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c076d0b4d1c23844baaa60fd8071e2e
+      internalID: 976382089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_14
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5bd304659ace8478130c89fe3eb6b7
+      internalID: 831512142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d909fdb6f67b46f468d172a521bd04b8
+      internalID: -1333030486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_16
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42fcc8e9c71ae54d9715bcf3398123b
+      internalID: 2037621093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a622dc42f5c2107418c913a869389243
+      internalID: 941738670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_18
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e674fe8f7fa2346bb0841831d72d5e
+      internalID: -1780542459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_19
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b332ef5ec279ee4d929abc4cdfe17c4
+      internalID: 2003513456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_20
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843015956e458a849a87b85b0359a53b
+      internalID: -1646944157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_21
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6171e3b1d922284bbe89137533f7f12
+      internalID: -788649975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_22
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623a86fd8fe6df84da6549763ab5e13e
+      internalID: -1938761932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_23
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d73bc979845704e83a01e4ecbfdf68
+      internalID: 388726343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_24
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bf4c6b0bbf95e4e8667aeb52ba4113
+      internalID: 538441839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_25
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d2f2e5d9881a540a317f920b2d6cd0
+      internalID: 1635361463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_26
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aad23c13b3c22f44ae3b53a9e69e075
+      internalID: -422376535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_27
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd875eb4de6d2494fba36116901ec3dd
+      internalID: -1449739444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_28
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29896b4bb5e87604f9d2782b78f388e7
+      internalID: 1901309565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3838
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a97e359d96e8b4f87e40aaaf7b9f11
+      internalID: -2057061654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9debce4855aa774ca60f4cc56f763d2
+      internalID: -1583672984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc13b0fb51423bd40b1d0585ffea6c40
+      internalID: -1600569303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8eb5d0c3c08b5d4d977cc09fcb67844
+      internalID: 1186077753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_33
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de08464c4c4d71f43a21a9c18e4303ad
+      internalID: 2098985386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_34
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fb7c46c8b382f49a1bf69c0754fb10
+      internalID: -1037252244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_35
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139a347c36be01e4f9f20ff85abab1da
+      internalID: -1471367200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_36
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31eca0bd3605bb438387757e98ae975
+      internalID: 2032896795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_37
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6d63890157aa449b17ec818b8f5af4
+      internalID: -831047594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_38
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71cdcc9397ac274481c368716d66a1f
+      internalID: -1363798646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_39
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20a2ca4df40a3a4aaff40c871d8a2f2
+      internalID: 911441303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_40
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7311d3e1bcb1984fae984cc6e666cdd
+      internalID: 981683235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_41
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ba49712dec0ac4b987e19f74265896
+      internalID: 2073097397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_42
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a31ca6658821c4da65add9bdc7f2f9
+      internalID: 1430125573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_43
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de838b54de284fd4882a8f8681aadd55
+      internalID: -1842332172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_44
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3708
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b597d52c872ab46a2b7a551a076ea3
+      internalID: 1614907453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1ceee672b15ac47bf1610b9c447718
+      internalID: 874835637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_46
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e0cff5451a2494580924cf1550c632
+      internalID: -406238196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913213bc3e5ac2049a0da0ffc0c6765c
+      internalID: 245109783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_48
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57181df2489548e4cb164ac8dcd1a68c
+      internalID: 750676900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_49
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2c2116a82d05249bcc60a1dc0cefe2
+      internalID: 1894862729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_50
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08349189c93b88e4a9571ba2d37ac79a
+      internalID: -1683237309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_51
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c292a5f7b1df6c64f964d8df7c0cc30f
+      internalID: 153124691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_52
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ee9c2e4cef1f24eaaf623da85dd924
+      internalID: -1258175739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_53
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0e194aa8ba5d647ae005897b59d6a0
+      internalID: 2029971938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_54
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a45b764e0de0ec44b91e7aa1bbfbb3d
+      internalID: 1316077151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_55
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27bdd96fb927d8479ada350a1e37817
+      internalID: -415585814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_56
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95bf96a4eb4cdd4884b688928d172a6
+      internalID: -1898499128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_57
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1f8471115dd064ca8022eda91b8cf7
+      internalID: 1735259724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_58
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f661cd8167635ad4bb152592c2fea65f
+      internalID: -940980914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_59
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3578
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2269dd3c597a17c4ea60565ca1fc9370
+      internalID: -571382413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_60
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa499fc371fd5f44e948f658a01478e9
+      internalID: -1474690583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_61
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acc8474559eacd41b9f39af9be9dd3e
+      internalID: 1803164164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_62
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7272bfdaa0363584490f0d4e4c15347f
+      internalID: -358974255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_63
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9481e4bb054acdd409188876726993dc
+      internalID: -1680004646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_64
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d941165356568634e9c155f6adcc5590
+      internalID: -716627824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_65
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e37a61278e7a749898c8a8deeb6e50
+      internalID: -53618124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_66
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2049ab1cdbf071941ab49404fdd7c1d7
+      internalID: 1653622093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_67
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e466f45a67c441d4aaaf060546681c42
+      internalID: -1014305466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_68
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409e58f4561a23c418e848d2c79b4fa2
+      internalID: -828022512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_69
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7ec36da58906546a0fe31d579fb391
+      internalID: 1460796129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_70
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dc2d74beb1c35489303dbcbb9d7e57
+      internalID: -763817430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_71
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6b1cbc8e50fa84f9fb87a6240286e9
+      internalID: -494233221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_72
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e11bca162e77c045beef4c431a39dfc
+      internalID: -514315818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_73
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af224a4bf9113d041bc7a6703ef2a011
+      internalID: 1339702523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_74
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04297db7970cefc499e27342039cdb14
+      internalID: 1094787324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_75
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4231e9d613d4e724d9370722447a58a0
+      internalID: 344739784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_76
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b9d703d466cae45bcc7c30b97775f5
+      internalID: 216395419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_77
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d16a7486c149034e8d4397fd91a2d89
+      internalID: -833257203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_78
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca115ef2fbfdfa46b0a077642df9d49
+      internalID: 2035573782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_79
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771f249bfd8669c40b586d73c71a3e39
+      internalID: 1517797656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_80
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e982561fc0bd6e45a727741caadc361
+      internalID: 1843058398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_81
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f1a561b6180044fb610f0fe0ccb8d5
+      internalID: -1950204206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_82
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b535ea5a6c7e74b9dfe54d5154510b
+      internalID: 996272862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_83
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9923d330e5079324ca4f32c33be9ac07
+      internalID: 1173650660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_84
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bcd745c5d32a64c9ae090fea69d9bb
+      internalID: 367786073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_85
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e9d1668760887428aff83d67ecc01f
+      internalID: -527055063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_86
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45850008d43dbf249898f3b58c2c5c98
+      internalID: -123884156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_87
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94945508a0af8884a9e1cc0b630ada20
+      internalID: 213587619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_88
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f037c163b0009c41b9b26dad00f12d9
+      internalID: -1681659511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_89
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3318
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9c606c523793e40a7699a1fb798dbf
+      internalID: 1390005446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_90
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307ae1d55db8a3b41a44dfccf742457f
+      internalID: 1669206416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_91
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cb6fd660183fe46afe03f6b0410c5a
+      internalID: 684426633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_92
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f534be2dc958ae84795352efcaf48142
+      internalID: -590299864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_93
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59c8e0f1224c0949ae81b7881648ea5
+      internalID: -221071909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_94
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdb5b3edc754e747896c9a73171d928
+      internalID: 1629123537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_95
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022ae943e20e2524c8b7a29a73ee5bb8
+      internalID: 72293957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_96
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b4d9291dd6da94d928b130d7fb04e6
+      internalID: 1661753707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_97
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedd88542da474745b7010c51d299d01
+      internalID: 1382374940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_98
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3821a6e25a389794da0fb622dc85fb4c
+      internalID: 781432966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_99
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d855f96ae2f287479654701312542c2
+      internalID: 962493444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_100
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1854901ea82ec044c9ea260ab2f52121
+      internalID: -1693198928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_101
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affd57c096f8ddc40ad048b47b779fa6
+      internalID: 1318438148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_102
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2aa327c6891a945b64bbab707ec4b9
+      internalID: 968410618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_103
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d003aca7a53b7d4418f533ca0175b917
+      internalID: -359869746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_104
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3188
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b10226eee0be64da60abb70796c7f4
+      internalID: -996782808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_105
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fada4600e83434cb79890461802af6
+      internalID: 769897779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_106
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3296b91a5bd73f34597daeae0552d501
+      internalID: 1758639747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_107
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbce8f9a6c6a3748830c8895d0623a6
+      internalID: 425231818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_108
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22117241b3fdce543bbcc6c2d3e68589
+      internalID: -690423397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_109
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72184417ad9ce54438dfed6a25c57000
+      internalID: -1780963580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_110
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695d6988605533647b5ba66bd72e9b0e
+      internalID: -227794114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_111
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbd851bbbab970499beaa1fbba8ea80
+      internalID: -2039122544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_112
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84909898e2ac6e848932df98a98a5a6c
+      internalID: -2141193276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_113
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f838c060cb9dab24e93a897bef7c46d8
+      internalID: -554096393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_114
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cc22bdd6c7a804aaf03b4494e90f26
+      internalID: 274291249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_115
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12806677486aef846bbe5455298ef6aa
+      internalID: -524482475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_116
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1c50b12b1710c479712e7d6c13fc6e
+      internalID: 586830914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_117
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cf6864710c6704d8f2d591e6a5adcc
+      internalID: -876703264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_118
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98aee06cf52f59468613811dcff99cc
+      internalID: -1905768660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_119
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3058
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded8ba5acfa23e648aaf449b33649bc8
+      internalID: 1692768182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_120
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f50ec89ab4e644a820662477ece6b5
+      internalID: -1899279749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_121
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d245d3353f1763f409e87e3ccbdc6e23
+      internalID: -478329018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_122
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568dcb59cccea4b46bc9f94c88b53cf2
+      internalID: 473578171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_123
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421f727d2da3b83429cc443fd10c5f57
+      internalID: -1350751183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_124
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2412765cc6d3f4544ad8701f98253de6
+      internalID: -396808485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_125
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9747cde60c32bcd49b50cc9c876a45d3
+      internalID: 1963739200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_126
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc7a10e7d370e24d8a8b2aa9c3084aa
+      internalID: 162612586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_127
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c664dd057c29f47479eb3b3b29aee808
+      internalID: 1439904218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_128
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fb957149437ac418ffa23d2bdb1709
+      internalID: -1870306218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_129
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76d01f3a76bab14bbdf7c5cf3c5efa6
+      internalID: 392142932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_130
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076c46e932f84ed4285c4421a66a5998
+      internalID: 277260571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_131
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c605dc0cc84de3c428f4bfb92d3fa69c
+      internalID: -904344616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_132
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e98fa6fb8722346bed074fbd22b860
+      internalID: -1171481096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_133
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c975629e8eb218a46a8dfe7ba2f69ead
+      internalID: -549586880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_134
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2928
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eedbe24624621746b703d4c1fcb23cb
+      internalID: -1522610514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_135
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656bda2b6ba95e04ba4f739c68dee2a0
+      internalID: 2142026753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_136
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2546ec9806e98d54f8d95fe0dda55981
+      internalID: 713072564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_137
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2f8376e90ae4e488cd32f28e4e181a
+      internalID: -771864551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_138
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3088a3b772ca4d2439a2ab43283d48dc
+      internalID: -1241609483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_139
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a2640b4e4d9c24ba719a9efcd116bf
+      internalID: 231545174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_140
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60d0b8589f81dc44a753a044d21ad53
+      internalID: 537389630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_141
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70b95990f5bccb429c69944b8a66af2
+      internalID: -416497222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_142
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90f934c8bb9731498201357bc95414a
+      internalID: 940140069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_143
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e24e8d1adae33a47b8c293973f6d350
+      internalID: -1151831302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_144
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d795780f6b1a84eb5f3aac5139140a
+      internalID: -1608135016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_145
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c5c0e2e6c3c714398aa67ce57cbdcf
+      internalID: -1088396991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_146
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f77fca4c1a219459bb70a005ffe732
+      internalID: -1786653323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_147
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace15541ddbe32e45a53982cb21ffd7a
+      internalID: -1843304555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_148
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3af439eccc0f847988116a25b3fc68
+      internalID: -1108862745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_149
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75494226a177ca3458807cef1b2fde06
+      internalID: -2001267095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_150
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5732e0c4d994ed243acb1215dc76136e
+      internalID: 353217182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_151
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2601499774899db4d9e98fe7ac98d3d7
+      internalID: -207645826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_152
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9617a3ae2038f341a2fec20a57861f5
+      internalID: 2129390518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_153
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b55017c289e94449318f2ba0959bd2
+      internalID: 232399500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_154
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb9ae73f45c9b645a2d8bde80307c03
+      internalID: -379895390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_155
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c584fb92b4cb5349ad447a2a7a23284
+      internalID: 1380214192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_156
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba34138a0642ef4eb92abfcfe7041ce
+      internalID: 1185505139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_157
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f4c7a71c1f02648a3a1619d3830726
+      internalID: -1416564240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_158
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5134653c0fcf9444b0d30b6ba36850b
+      internalID: 982219242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_159
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e64c01bb6b40940b680c54e07bb45b
+      internalID: 421647464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_160
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bda48a67ae23cc4bb38dcf4372c4222
+      internalID: -947333912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_161
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59898a381b98c31439f8aa8a27516648
+      internalID: -1556262939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_162
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8626e21a2581e6040b2a197edea7074e
+      internalID: 200449431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_163
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d0b6af167025442a547f77d8fb2f2d
+      internalID: -1341038646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_164
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2668
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1d68d17864e434c8db4839c432e528
+      internalID: -902794343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_165
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e554b705868d14448cfdb7978a0e837
+      internalID: 1343982909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_166
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14687a556e0d7746a3e74a7f60de664
+      internalID: 902039000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_167
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa70323b5af05e46af8b480cb604caa
+      internalID: -1431883802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_168
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0182c8b4bf95f6438830390e39d2bac
+      internalID: -1048157785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_169
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adefab5abd419f498e57b82614eb3be
+      internalID: -1782571896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_170
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431bd313860dc964faa3a6a8b3d66ff7
+      internalID: -1720068372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_171
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bf11f8ec7ccb04fbb77f03b2dbe534
+      internalID: 280479120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_172
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d962e9bf0321142bf6b33e079458b0
+      internalID: 1497921909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_173
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df837151b5fe4164dac46f5560ab3e1e
+      internalID: 2078189517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_174
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2477ab7a2b574419643534552ffa1c
+      internalID: -419114060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_175
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cde54c792931e4abead173ed780337
+      internalID: 812136399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_176
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ee07a5725725a4aaae86fed85c678c
+      internalID: 934466456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_177
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1cb00ab0d85344dba762e599843fff
+      internalID: -1515747451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_178
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909c67bb0bebecd44835bde5891f6a44
+      internalID: 1250989017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_179
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2538
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92b63eebded2b94e97387d8b3b25724
+      internalID: 195839087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_180
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cbcb786145f2244ae79bb639c78a6c
+      internalID: -1602318478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_181
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63db6cae6aa717743b080627e6b1aa46
+      internalID: 221324769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_182
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7791af1f3c22806409815c4a632756c7
+      internalID: 145103598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_183
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16251b60d75bbde4c9f67108e568efab
+      internalID: 236889474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_184
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8686671aa1c59fe4394afa3f914b23b6
+      internalID: -1717823748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_185
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1da64a2d0d5f446b4f9abb171e3e45
+      internalID: -1926566312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_186
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98d3e4a70fac284687f724c9403e8aa
+      internalID: 299185235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_187
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a363315811fa4f44a55c3d3053c0bbe
+      internalID: 1871176641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_188
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3748d1133e88d8a4c841d33e92f9ac2a
+      internalID: 1743779489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_189
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5709c374f9af44095509f163995d71
+      internalID: -1294129480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_190
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf8bb9efdd1b4e4fa7adfe85ecd2fa1
+      internalID: 350366014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_191
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9403c2e0750c8a49805d5bda94a1076
+      internalID: -211617876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_192
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8309e07ac879048b94fbb3516c2c31
+      internalID: -1326560687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_193
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066cbfac632c85e42a838f3e8c2f6196
+      internalID: 910738820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_194
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa92dbd208a44d46a4b98b26303c385
+      internalID: -720770521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_195
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fbcbd374ef7624f84ce7ff9d4005e1
+      internalID: 1649382251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_196
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74378d042d1e394ca84239af7b77c31
+      internalID: 1172073707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_197
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6518526ed14ebff449c5c7690bc8900c
+      internalID: 1482398695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_198
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb05bd3c107b5e478e8889b01239825
+      internalID: -867611994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_199
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19061a432fc6e95449fd57172e570555
+      internalID: 1325277801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_200
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e9c4b0ee84b81408a2df5ada437060
+      internalID: 972582500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_201
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d67f2ddd4150c47b3362edd4fe3b86
+      internalID: -555432263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_202
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4132039aae1a2d3498e7a56802f3ed2f
+      internalID: -1406140493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_203
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf1b9d142538be41adf3ab3d7f304be
+      internalID: 798894385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_204
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcddadbb897e3b446ab364038562034c
+      internalID: 578100487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_205
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09eb564b89a35349a0165f3379d5b1c
+      internalID: 1322444255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_206
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71de457904ff8104892533a76e9eaf5e
+      internalID: -1901046291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_207
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671f71cd211957843a6605d2f35f01b2
+      internalID: 831477100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_208
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1b1b24cddc2914e8c82fa8d9e946b0
+      internalID: -1843269700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_209
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2278
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba0faa2d9302954586a1dbc3ce7d054
+      internalID: 168983543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_210
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1caae8f39e8c34892b2c7e56b28cfe
+      internalID: 981032214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_211
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c13bfc68d246d6468985d655ca54011
+      internalID: -1892238424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_212
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d172926a588d9648854a1a45d8288e2
+      internalID: -569284641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_213
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21fa4fdddc4a8845a6eeb4496457c17
+      internalID: -655133106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_214
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57f81c4a12f52641a600c3b822b81ea
+      internalID: 2050622920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_215
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d888e2f5e1572474da7363a1940bcc2b
+      internalID: -1508832409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_216
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5540d0a9d7baafd4890b2db0189b3506
+      internalID: -1161429931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_217
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a30adc2ff27d974ab7bf85ad4563a17
+      internalID: -1733704202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_218
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa557147f1d30a4419b596b94311a512
+      internalID: 1943470477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_219
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e20ccc6126ddee4bb652baedd8e6cb7
+      internalID: -430984609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_220
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f011d7f7ab2fd24e993a0547fe02970
+      internalID: -1490092093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_221
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c53cf7071b604748a9f0fc9fb1f222a
+      internalID: -1959275007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_222
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7106aa4725aff47836d3f6dc37f8df
+      internalID: -1713002419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_223
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901a36dc46114364aa4f870f72a45f94
+      internalID: 303480236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_224
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2148
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e360fdd16cff7b341b290589a7ba5ad7
+      internalID: -1013248665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_225
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325d83baa0189604fb71d1552b165dc9
+      internalID: 1653773420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_226
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f9f557640973e4cb3bf128055794ff
+      internalID: 494783614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_227
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e09d4e5946744347bed8e727e8a85a0
+      internalID: -1620666937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_228
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5de671727e8114d979618df4634e69
+      internalID: -367673955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_229
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63de5e61b60f7542aa47a2b07a7ac46
+      internalID: -1304390667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_230
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0605e4e3030dd20409463aa4c8d91942
+      internalID: -167458932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_231
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b69eec89a43bc64cb9c8dc6274a434c
+      internalID: -1794929769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_232
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cabb60fcd783a4e8decd1649d8ef57
+      internalID: -2043074026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_233
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bd0f9928074d74abddc0005588d959
+      internalID: 1642813815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_234
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960727fe91864374fb011bd0079b209d
+      internalID: -382910601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_235
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f666b967d9ee24ca11b872673ef96f
+      internalID: -290915545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_236
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032e9a3980f4a134888ec54e70c706a6
+      internalID: -2066223017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_237
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de12783f4ddc2b479e4aac720322346
+      internalID: 2009264833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_238
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55720e108a4b3a441891e19f2f968ee7
+      internalID: -325377498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_239
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2018
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d5769ef02da4b4bad05e712cac1603
+      internalID: -1057635139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_240
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11865416728acce409f1d701e6f69c9f
+      internalID: -475057068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_241
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3def33871917b594eb734f0e1f184c62
+      internalID: -1040935583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_242
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d749ea3f149aa4790cdf9e04f2698d
+      internalID: -1652101565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_243
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bad59a244d3530468af3955d848b315
+      internalID: -1572401225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_244
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5d80488d4d871458a614640ddd0536
+      internalID: -141341196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_245
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03641588c7df4945837b3acf50d3f90
+      internalID: -1816931619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_246
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591b4d84b3111374e8d0f181084c9627
+      internalID: -1306724036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_247
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddf17bd469af0e4ca2a8b7023c828a9
+      internalID: -1191362042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_248
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e4d69c275e32a468d8b579f335f4f5
+      internalID: -2105484581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_249
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae5b1424f173334cb078787cc541e29
+      internalID: 628738446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_250
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6c897cc4d559042865aea317f2a9cd
+      internalID: 617953959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_251
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1179e9b97839bd4586f6485e3281467
+      internalID: 1687167808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_252
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfe0ab5ec047134c96e4c01ceadaec6
+      internalID: 625954713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_253
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3b5a08d6afe694899a3a45bc029548
+      internalID: 475934859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_254
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1888
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5cbcb61731fcb4cadb91b90654b543
+      internalID: 229573678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_255
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3363e563e3e60ab488b41d4c1727a6ea
+      internalID: -393828472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_256
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e061fdcfd3db8e94b83d8281dc44bd85
+      internalID: 1357187321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_257
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadc810221d799b4ea3665880095e5fd
+      internalID: 343809426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_258
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86bbb9bea38e964886d25d80c62bf02
+      internalID: 1318958541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_259
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d4c5a3ecfde0f4d863d56383c66d34
+      internalID: -113305411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_260
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab818dc099bc4764db4e04bc5bb578c6
+      internalID: 2816799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_261
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d257593fd0eded45a8dc7241408555a
+      internalID: 1427838280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_262
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689bb3efe4be22a46a3da11a2bda8de7
+      internalID: 1525928284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_263
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99c8608715f2ad47a37d14f3b0100d7
+      internalID: -2084461584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_264
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8308b1184db5bc94c993f1a3b0d2312f
+      internalID: -1442859253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_265
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be81599102b6524ba384502d02d3ef8
+      internalID: 564317775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_266
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b5b576c410440458908cb4b7d064b1
+      internalID: -1852866330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_267
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25acedd47099c9e40808331e5502f001
+      internalID: -1931204000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_268
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a880d06331ffdf043a356cdd856ea6e3
+      internalID: 1261751230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_269
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1758
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c0171e3b6e7e944aa90d0744c53d24
+      internalID: -1162247179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_270
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465fef6cd34e45b41bd448f2edce2598
+      internalID: -125135606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_271
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71fda98bcdb4f546b56242f20ca4e53
+      internalID: -386046546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_272
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a4b1f16d3871a42a706620db4a4764
+      internalID: 374367632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_273
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2f86444f9a6ed4fa0cb0b53e9feda0
+      internalID: -790582284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_274
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6417f760f147c4a9e08b2cfe322dc0
+      internalID: 1733881894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_275
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5699ed5d0be762341b312984dad5aa78
+      internalID: -1072476591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_276
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6910525ecd26d5f4a95bc84dc4fe4aea
+      internalID: 1000968844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_277
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ed4f9649279614a93a864fc3a3cc01
+      internalID: 725752438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_278
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209d18d371b53c54f9cdc45862e5223f
+      internalID: -1789256936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_279
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59272c826e596f649b0bde897370deb5
+      internalID: -1036444611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_280
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970fdaaac0375c2498971293754c9dd7
+      internalID: 1850689723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_281
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f938238cf38701a4ea38fb38c0a40af3
+      internalID: -1469945370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_282
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b6f117248c6e84688dfbe6e49817ba
+      internalID: -1512706408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_283
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d253afd6c292de74abadda6d71b137c3
+      internalID: 2138011464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_284
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1628
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ce004cdedda2149afb376f09778b00
+      internalID: 1096500916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_285
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816799378553c1440b480b4b8de236ae
+      internalID: 448599240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_286
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aff98f59446950449343ee5f5e098e7
+      internalID: 650968060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_287
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b996cc9a589d77640863cb3377f15529
+      internalID: -66136803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_288
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2278259a806a37f40805cbb11ce72b86
+      internalID: -726366781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_289
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce903031028eaf341a608f755e3a8cc7
+      internalID: 1158009932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_290
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d6012a95289464c80c4d18363320e8
+      internalID: 2049194549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_291
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e689931e00a0474abd152f1696476b3
+      internalID: -921772007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_292
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d0bd0de73a0f649861c1ca1dd7bf34
+      internalID: -1644721880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_293
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573fa52ba28dd8b4ebd2da518edff9e7
+      internalID: -1602275259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_294
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746f97c0542b98842b7d50abfe3b6d7e
+      internalID: -1150451701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_295
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76492c3a79ef6234498f8dec1034405e
+      internalID: 758154889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_296
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac85be6ca9eee9f43bd1fdf580cbc18f
+      internalID: -2046706617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_297
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dde43df143c0cf4f8740096b7e41a01
+      internalID: -433381615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_298
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bc69f7d44ff334898ab21c53dd6c9d
+      internalID: 566816527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_299
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1498
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4568061d7e1646745b25070c62456615
+      internalID: 378506220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_300
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc1f96d2816d494db11cafdab9990de
+      internalID: 1798080473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_301
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43925bdc402f2d4d9005abdc56fe0b3
+      internalID: -369123440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_302
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf13825d2685a0e439d28054be480405
+      internalID: 879492330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_303
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b4d309a99019a42ae6a175e3462b2a
+      internalID: 631948141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_304
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7045842b3e518a246a255a56a2cf402b
+      internalID: -690765236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_305
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c1f1cbaab49ee40956d8c44eca347a
+      internalID: -1940484107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_306
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacf760086615fd47b950ac33b86fed1
+      internalID: 1144203236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_307
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603775ad6a387a548b9adf73667d97a3
+      internalID: -982343722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_308
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1023431495b824085252933aeab969
+      internalID: -1928576116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_309
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f639587983baf7d4bbb136664196b083
+      internalID: -1054542848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_310
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9591abfbfa71a4c99c9a63b834e194
+      internalID: -776818484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_311
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1725ac80de3a94197be448416aaf86
+      internalID: 328106003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_312
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063f4d78447af5f449e49081bdec3629
+      internalID: 1965417243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_313
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bbe6e1e62b9c14db0b486b40a2de39
+      internalID: 1023165534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_314
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1368
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5403f4326a2efa14fbf957947e9c80de
+      internalID: 879216787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_315
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdec8c9871644048ada3c629feafd5a
+      internalID: -913141094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_316
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885df12294c4a83448dbafda52bfcad1
+      internalID: 958666672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_317
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248e2c6bd5f040343a5e1ceaee897711
+      internalID: -13501194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_318
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832224bb00953414ca174cb25b4d9c3f
+      internalID: 2083526897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_319
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6098357feaa194f9e0c401a6d94358
+      internalID: 1654595533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_320
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2481648181a547469ad0d39d00e8185
+      internalID: 1368004907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_321
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645511c390c85d34d834fbd30f76685a
+      internalID: -1426386130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_322
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a1f78639bc8a244b3fc6404db7b568
+      internalID: 1821480740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_323
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c0223d0c44dc34c913e2457157604a
+      internalID: 581183730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_324
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b380e64287b7a418717ba0ef3adb1f
+      internalID: -198012189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_325
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83399ee39b5a9ce46a8484219f4bc00a
+      internalID: -138417098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_326
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3607cbbbba836cc4f88f14dfd3877db2
+      internalID: 1853473450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_tiles_rotate_327
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1238
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447f4625196b805439c6910d8a4de3be
+      internalID: -449026654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheet_tiles_rotate_0: 905301792
+      spritesheet_tiles_rotate_1: -74165813
+      spritesheet_tiles_rotate_10: 360705926
+      spritesheet_tiles_rotate_100: -1693198928
+      spritesheet_tiles_rotate_101: 1318438148
+      spritesheet_tiles_rotate_102: 968410618
+      spritesheet_tiles_rotate_103: -359869746
+      spritesheet_tiles_rotate_104: -996782808
+      spritesheet_tiles_rotate_105: 769897779
+      spritesheet_tiles_rotate_106: 1758639747
+      spritesheet_tiles_rotate_107: 425231818
+      spritesheet_tiles_rotate_108: -690423397
+      spritesheet_tiles_rotate_109: -1780963580
+      spritesheet_tiles_rotate_11: 1044849314
+      spritesheet_tiles_rotate_110: -227794114
+      spritesheet_tiles_rotate_111: -2039122544
+      spritesheet_tiles_rotate_112: -2141193276
+      spritesheet_tiles_rotate_113: -554096393
+      spritesheet_tiles_rotate_114: 274291249
+      spritesheet_tiles_rotate_115: -524482475
+      spritesheet_tiles_rotate_116: 586830914
+      spritesheet_tiles_rotate_117: -876703264
+      spritesheet_tiles_rotate_118: -1905768660
+      spritesheet_tiles_rotate_119: 1692768182
+      spritesheet_tiles_rotate_12: 144150594
+      spritesheet_tiles_rotate_120: -1899279749
+      spritesheet_tiles_rotate_121: -478329018
+      spritesheet_tiles_rotate_122: 473578171
+      spritesheet_tiles_rotate_123: -1350751183
+      spritesheet_tiles_rotate_124: -396808485
+      spritesheet_tiles_rotate_125: 1963739200
+      spritesheet_tiles_rotate_126: 162612586
+      spritesheet_tiles_rotate_127: 1439904218
+      spritesheet_tiles_rotate_128: -1870306218
+      spritesheet_tiles_rotate_129: 392142932
+      spritesheet_tiles_rotate_13: 976382089
+      spritesheet_tiles_rotate_130: 277260571
+      spritesheet_tiles_rotate_131: -904344616
+      spritesheet_tiles_rotate_132: -1171481096
+      spritesheet_tiles_rotate_133: -549586880
+      spritesheet_tiles_rotate_134: -1522610514
+      spritesheet_tiles_rotate_135: 2142026753
+      spritesheet_tiles_rotate_136: 713072564
+      spritesheet_tiles_rotate_137: -771864551
+      spritesheet_tiles_rotate_138: -1241609483
+      spritesheet_tiles_rotate_139: 231545174
+      spritesheet_tiles_rotate_14: 831512142
+      spritesheet_tiles_rotate_140: 537389630
+      spritesheet_tiles_rotate_141: -416497222
+      spritesheet_tiles_rotate_142: 940140069
+      spritesheet_tiles_rotate_143: -1151831302
+      spritesheet_tiles_rotate_144: -1608135016
+      spritesheet_tiles_rotate_145: -1088396991
+      spritesheet_tiles_rotate_146: -1786653323
+      spritesheet_tiles_rotate_147: -1843304555
+      spritesheet_tiles_rotate_148: -1108862745
+      spritesheet_tiles_rotate_149: -2001267095
+      spritesheet_tiles_rotate_15: -1333030486
+      spritesheet_tiles_rotate_150: 353217182
+      spritesheet_tiles_rotate_151: -207645826
+      spritesheet_tiles_rotate_152: 2129390518
+      spritesheet_tiles_rotate_153: 232399500
+      spritesheet_tiles_rotate_154: -379895390
+      spritesheet_tiles_rotate_155: 1380214192
+      spritesheet_tiles_rotate_156: 1185505139
+      spritesheet_tiles_rotate_157: -1416564240
+      spritesheet_tiles_rotate_158: 982219242
+      spritesheet_tiles_rotate_159: 421647464
+      spritesheet_tiles_rotate_16: 2037621093
+      spritesheet_tiles_rotate_160: -947333912
+      spritesheet_tiles_rotate_161: -1556262939
+      spritesheet_tiles_rotate_162: 200449431
+      spritesheet_tiles_rotate_163: -1341038646
+      spritesheet_tiles_rotate_164: -902794343
+      spritesheet_tiles_rotate_165: 1343982909
+      spritesheet_tiles_rotate_166: 902039000
+      spritesheet_tiles_rotate_167: -1431883802
+      spritesheet_tiles_rotate_168: -1048157785
+      spritesheet_tiles_rotate_169: -1782571896
+      spritesheet_tiles_rotate_17: 941738670
+      spritesheet_tiles_rotate_170: -1720068372
+      spritesheet_tiles_rotate_171: 280479120
+      spritesheet_tiles_rotate_172: 1497921909
+      spritesheet_tiles_rotate_173: 2078189517
+      spritesheet_tiles_rotate_174: -419114060
+      spritesheet_tiles_rotate_175: 812136399
+      spritesheet_tiles_rotate_176: 934466456
+      spritesheet_tiles_rotate_177: -1515747451
+      spritesheet_tiles_rotate_178: 1250989017
+      spritesheet_tiles_rotate_179: 195839087
+      spritesheet_tiles_rotate_18: -1780542459
+      spritesheet_tiles_rotate_180: -1602318478
+      spritesheet_tiles_rotate_181: 221324769
+      spritesheet_tiles_rotate_182: 145103598
+      spritesheet_tiles_rotate_183: 236889474
+      spritesheet_tiles_rotate_184: -1717823748
+      spritesheet_tiles_rotate_185: -1926566312
+      spritesheet_tiles_rotate_186: 299185235
+      spritesheet_tiles_rotate_187: 1871176641
+      spritesheet_tiles_rotate_188: 1743779489
+      spritesheet_tiles_rotate_189: -1294129480
+      spritesheet_tiles_rotate_19: 2003513456
+      spritesheet_tiles_rotate_190: 350366014
+      spritesheet_tiles_rotate_191: -211617876
+      spritesheet_tiles_rotate_192: -1326560687
+      spritesheet_tiles_rotate_193: 910738820
+      spritesheet_tiles_rotate_194: -720770521
+      spritesheet_tiles_rotate_195: 1649382251
+      spritesheet_tiles_rotate_196: 1172073707
+      spritesheet_tiles_rotate_197: 1482398695
+      spritesheet_tiles_rotate_198: -867611994
+      spritesheet_tiles_rotate_199: 1325277801
+      spritesheet_tiles_rotate_2: -345802774
+      spritesheet_tiles_rotate_20: -1646944157
+      spritesheet_tiles_rotate_200: 972582500
+      spritesheet_tiles_rotate_201: -555432263
+      spritesheet_tiles_rotate_202: -1406140493
+      spritesheet_tiles_rotate_203: 798894385
+      spritesheet_tiles_rotate_204: 578100487
+      spritesheet_tiles_rotate_205: 1322444255
+      spritesheet_tiles_rotate_206: -1901046291
+      spritesheet_tiles_rotate_207: 831477100
+      spritesheet_tiles_rotate_208: -1843269700
+      spritesheet_tiles_rotate_209: 168983543
+      spritesheet_tiles_rotate_21: -788649975
+      spritesheet_tiles_rotate_210: 981032214
+      spritesheet_tiles_rotate_211: -1892238424
+      spritesheet_tiles_rotate_212: -569284641
+      spritesheet_tiles_rotate_213: -655133106
+      spritesheet_tiles_rotate_214: 2050622920
+      spritesheet_tiles_rotate_215: -1508832409
+      spritesheet_tiles_rotate_216: -1161429931
+      spritesheet_tiles_rotate_217: -1733704202
+      spritesheet_tiles_rotate_218: 1943470477
+      spritesheet_tiles_rotate_219: -430984609
+      spritesheet_tiles_rotate_22: -1938761932
+      spritesheet_tiles_rotate_220: -1490092093
+      spritesheet_tiles_rotate_221: -1959275007
+      spritesheet_tiles_rotate_222: -1713002419
+      spritesheet_tiles_rotate_223: 303480236
+      spritesheet_tiles_rotate_224: -1013248665
+      spritesheet_tiles_rotate_225: 1653773420
+      spritesheet_tiles_rotate_226: 494783614
+      spritesheet_tiles_rotate_227: -1620666937
+      spritesheet_tiles_rotate_228: -367673955
+      spritesheet_tiles_rotate_229: -1304390667
+      spritesheet_tiles_rotate_23: 388726343
+      spritesheet_tiles_rotate_230: -167458932
+      spritesheet_tiles_rotate_231: -1794929769
+      spritesheet_tiles_rotate_232: -2043074026
+      spritesheet_tiles_rotate_233: 1642813815
+      spritesheet_tiles_rotate_234: -382910601
+      spritesheet_tiles_rotate_235: -290915545
+      spritesheet_tiles_rotate_236: -2066223017
+      spritesheet_tiles_rotate_237: 2009264833
+      spritesheet_tiles_rotate_238: -325377498
+      spritesheet_tiles_rotate_239: -1057635139
+      spritesheet_tiles_rotate_24: 538441839
+      spritesheet_tiles_rotate_240: -475057068
+      spritesheet_tiles_rotate_241: -1040935583
+      spritesheet_tiles_rotate_242: -1652101565
+      spritesheet_tiles_rotate_243: -1572401225
+      spritesheet_tiles_rotate_244: -141341196
+      spritesheet_tiles_rotate_245: -1816931619
+      spritesheet_tiles_rotate_246: -1306724036
+      spritesheet_tiles_rotate_247: -1191362042
+      spritesheet_tiles_rotate_248: -2105484581
+      spritesheet_tiles_rotate_249: 628738446
+      spritesheet_tiles_rotate_25: 1635361463
+      spritesheet_tiles_rotate_250: 617953959
+      spritesheet_tiles_rotate_251: 1687167808
+      spritesheet_tiles_rotate_252: 625954713
+      spritesheet_tiles_rotate_253: 475934859
+      spritesheet_tiles_rotate_254: 229573678
+      spritesheet_tiles_rotate_255: -393828472
+      spritesheet_tiles_rotate_256: 1357187321
+      spritesheet_tiles_rotate_257: 343809426
+      spritesheet_tiles_rotate_258: 1318958541
+      spritesheet_tiles_rotate_259: -113305411
+      spritesheet_tiles_rotate_26: -422376535
+      spritesheet_tiles_rotate_260: 2816799
+      spritesheet_tiles_rotate_261: 1427838280
+      spritesheet_tiles_rotate_262: 1525928284
+      spritesheet_tiles_rotate_263: -2084461584
+      spritesheet_tiles_rotate_264: -1442859253
+      spritesheet_tiles_rotate_265: 564317775
+      spritesheet_tiles_rotate_266: -1852866330
+      spritesheet_tiles_rotate_267: -1931204000
+      spritesheet_tiles_rotate_268: 1261751230
+      spritesheet_tiles_rotate_269: -1162247179
+      spritesheet_tiles_rotate_27: -1449739444
+      spritesheet_tiles_rotate_270: -125135606
+      spritesheet_tiles_rotate_271: -386046546
+      spritesheet_tiles_rotate_272: 374367632
+      spritesheet_tiles_rotate_273: -790582284
+      spritesheet_tiles_rotate_274: 1733881894
+      spritesheet_tiles_rotate_275: -1072476591
+      spritesheet_tiles_rotate_276: 1000968844
+      spritesheet_tiles_rotate_277: 725752438
+      spritesheet_tiles_rotate_278: -1789256936
+      spritesheet_tiles_rotate_279: -1036444611
+      spritesheet_tiles_rotate_28: 1901309565
+      spritesheet_tiles_rotate_280: 1850689723
+      spritesheet_tiles_rotate_281: -1469945370
+      spritesheet_tiles_rotate_282: -1512706408
+      spritesheet_tiles_rotate_283: 2138011464
+      spritesheet_tiles_rotate_284: 1096500916
+      spritesheet_tiles_rotate_285: 448599240
+      spritesheet_tiles_rotate_286: 650968060
+      spritesheet_tiles_rotate_287: -66136803
+      spritesheet_tiles_rotate_288: -726366781
+      spritesheet_tiles_rotate_289: 1158009932
+      spritesheet_tiles_rotate_29: -2057061654
+      spritesheet_tiles_rotate_290: 2049194549
+      spritesheet_tiles_rotate_291: -921772007
+      spritesheet_tiles_rotate_292: -1644721880
+      spritesheet_tiles_rotate_293: -1602275259
+      spritesheet_tiles_rotate_294: -1150451701
+      spritesheet_tiles_rotate_295: 758154889
+      spritesheet_tiles_rotate_296: -2046706617
+      spritesheet_tiles_rotate_297: -433381615
+      spritesheet_tiles_rotate_298: 566816527
+      spritesheet_tiles_rotate_299: 378506220
+      spritesheet_tiles_rotate_3: 532903167
+      spritesheet_tiles_rotate_30: -1583672984
+      spritesheet_tiles_rotate_300: 1798080473
+      spritesheet_tiles_rotate_301: -369123440
+      spritesheet_tiles_rotate_302: 879492330
+      spritesheet_tiles_rotate_303: 631948141
+      spritesheet_tiles_rotate_304: -690765236
+      spritesheet_tiles_rotate_305: -1940484107
+      spritesheet_tiles_rotate_306: 1144203236
+      spritesheet_tiles_rotate_307: -982343722
+      spritesheet_tiles_rotate_308: -1928576116
+      spritesheet_tiles_rotate_309: -1054542848
+      spritesheet_tiles_rotate_31: -1600569303
+      spritesheet_tiles_rotate_310: -776818484
+      spritesheet_tiles_rotate_311: 328106003
+      spritesheet_tiles_rotate_312: 1965417243
+      spritesheet_tiles_rotate_313: 1023165534
+      spritesheet_tiles_rotate_314: 879216787
+      spritesheet_tiles_rotate_315: -913141094
+      spritesheet_tiles_rotate_316: 958666672
+      spritesheet_tiles_rotate_317: -13501194
+      spritesheet_tiles_rotate_318: 2083526897
+      spritesheet_tiles_rotate_319: 1654595533
+      spritesheet_tiles_rotate_32: 1186077753
+      spritesheet_tiles_rotate_320: 1368004907
+      spritesheet_tiles_rotate_321: -1426386130
+      spritesheet_tiles_rotate_322: 1821480740
+      spritesheet_tiles_rotate_323: 581183730
+      spritesheet_tiles_rotate_324: -198012189
+      spritesheet_tiles_rotate_325: -138417098
+      spritesheet_tiles_rotate_326: 1853473450
+      spritesheet_tiles_rotate_327: -449026654
+      spritesheet_tiles_rotate_33: 2098985386
+      spritesheet_tiles_rotate_34: -1037252244
+      spritesheet_tiles_rotate_35: -1471367200
+      spritesheet_tiles_rotate_36: 2032896795
+      spritesheet_tiles_rotate_37: -831047594
+      spritesheet_tiles_rotate_38: -1363798646
+      spritesheet_tiles_rotate_39: 911441303
+      spritesheet_tiles_rotate_4: -1240623239
+      spritesheet_tiles_rotate_40: 981683235
+      spritesheet_tiles_rotate_41: 2073097397
+      spritesheet_tiles_rotate_42: 1430125573
+      spritesheet_tiles_rotate_43: -1842332172
+      spritesheet_tiles_rotate_44: 1614907453
+      spritesheet_tiles_rotate_45: 874835637
+      spritesheet_tiles_rotate_46: -406238196
+      spritesheet_tiles_rotate_47: 245109783
+      spritesheet_tiles_rotate_48: 750676900
+      spritesheet_tiles_rotate_49: 1894862729
+      spritesheet_tiles_rotate_5: -1759908611
+      spritesheet_tiles_rotate_50: -1683237309
+      spritesheet_tiles_rotate_51: 153124691
+      spritesheet_tiles_rotate_52: -1258175739
+      spritesheet_tiles_rotate_53: 2029971938
+      spritesheet_tiles_rotate_54: 1316077151
+      spritesheet_tiles_rotate_55: -415585814
+      spritesheet_tiles_rotate_56: -1898499128
+      spritesheet_tiles_rotate_57: 1735259724
+      spritesheet_tiles_rotate_58: -940980914
+      spritesheet_tiles_rotate_59: -571382413
+      spritesheet_tiles_rotate_6: -762597089
+      spritesheet_tiles_rotate_60: -1474690583
+      spritesheet_tiles_rotate_61: 1803164164
+      spritesheet_tiles_rotate_62: -358974255
+      spritesheet_tiles_rotate_63: -1680004646
+      spritesheet_tiles_rotate_64: -716627824
+      spritesheet_tiles_rotate_65: -53618124
+      spritesheet_tiles_rotate_66: 1653622093
+      spritesheet_tiles_rotate_67: -1014305466
+      spritesheet_tiles_rotate_68: -828022512
+      spritesheet_tiles_rotate_69: 1460796129
+      spritesheet_tiles_rotate_7: -1799737712
+      spritesheet_tiles_rotate_70: -763817430
+      spritesheet_tiles_rotate_71: -494233221
+      spritesheet_tiles_rotate_72: -514315818
+      spritesheet_tiles_rotate_73: 1339702523
+      spritesheet_tiles_rotate_74: 1094787324
+      spritesheet_tiles_rotate_75: 344739784
+      spritesheet_tiles_rotate_76: 216395419
+      spritesheet_tiles_rotate_77: -833257203
+      spritesheet_tiles_rotate_78: 2035573782
+      spritesheet_tiles_rotate_79: 1517797656
+      spritesheet_tiles_rotate_8: 773811901
+      spritesheet_tiles_rotate_80: 1843058398
+      spritesheet_tiles_rotate_81: -1950204206
+      spritesheet_tiles_rotate_82: 996272862
+      spritesheet_tiles_rotate_83: 1173650660
+      spritesheet_tiles_rotate_84: 367786073
+      spritesheet_tiles_rotate_85: -527055063
+      spritesheet_tiles_rotate_86: -123884156
+      spritesheet_tiles_rotate_87: 213587619
+      spritesheet_tiles_rotate_88: -1681659511
+      spritesheet_tiles_rotate_89: 1390005446
+      spritesheet_tiles_rotate_9: -1796302929
+      spritesheet_tiles_rotate_90: 1669206416
+      spritesheet_tiles_rotate_91: 684426633
+      spritesheet_tiles_rotate_92: -590299864
+      spritesheet_tiles_rotate_93: -221071909
+      spritesheet_tiles_rotate_94: 1629123537
+      spritesheet_tiles_rotate_95: 72293957
+      spritesheet_tiles_rotate_96: 1661753707
+      spritesheet_tiles_rotate_97: 1382374940
+      spritesheet_tiles_rotate_98: 781432966
+      spritesheet_tiles_rotate_99: 962493444
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
