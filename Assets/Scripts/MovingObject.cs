@@ -17,6 +17,10 @@ public class MovingObject : MonoBehaviour
     {
         if (collision.tag == "Destroy" || collision.tag == "Player")
         {
+            if (gameObject.name.Contains("Obstacle"))
+            {
+                GetComponent<AudioSource>().Play();
+            }
             Destroy(gameObject);
         }
         else if (collision.tag == "Coin")
