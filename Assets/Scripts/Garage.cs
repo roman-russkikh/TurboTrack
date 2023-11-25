@@ -45,14 +45,13 @@ public class Garage : MonoBehaviour
 
     private List<Car> cars = null;
 
+
     private int selectedCarIndex = 0;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        if (cars == null)
-        {
-            Initialize();
-        }
+        Initialize();
+        gameObject.SetActive(false);
     }
 
     private void Initialize()
@@ -64,6 +63,11 @@ public class Garage : MonoBehaviour
         {
             rightButton.SetActive(false);
             leftButton.SetActive(false);
+        }
+
+        if (Game.Player.PlayerData.PlayerInventory._ownedCarIds.Count == 0)
+        {
+            carImage.gameObject.SetActive(false);
         }
     }
 
@@ -118,6 +122,11 @@ public class Garage : MonoBehaviour
         if (car == null)
         {
             return;
+        }
+
+        if (!carImage.gameObject.activeInHierarchy)
+        {
+            carImage.gameObject.SetActive(true);
         }
 
         nameText.text = car.Name;

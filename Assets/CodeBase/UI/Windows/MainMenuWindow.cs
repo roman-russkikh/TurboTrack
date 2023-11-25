@@ -60,16 +60,16 @@ namespace CodeBase.UI.Windows.Shop
             }
             else
             {
-                _openGarageButton.gameObject.SetActive(false);
-                _startMiniGameButton.gameObject.SetActive(false);
+                _openGarageButton.transform.parent.gameObject.SetActive(false);
+                _startMiniGameButton.transform.parent.gameObject.SetActive(false);
                 _popUpNoCars.SetActive(true);
             }
     }
     
     private void OpenGaragePopUp()
     {
-            _openGarageButton.gameObject.SetActive(false);
-            _startMiniGameButton.gameObject.SetActive(false);
+            _openGarageButton.transform.parent.gameObject.SetActive(false);
+            _startMiniGameButton.transform.parent.gameObject.SetActive(false);
             _garagePanel.SetActive(true);
     }
 
