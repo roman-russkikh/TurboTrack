@@ -187,7 +187,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8373821017047789308, guid: 7b5b7d0034b31fe4aa033e1ce569a526, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -788,7 +789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da558bc8cd4812147aa9861fceda316d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 4071604213453657960, guid: 7b5b7d0034b31fe4aa033e1ce569a526, type: 3}
+  coin: {fileID: 4071604213453657960, guid: 11a5e4a5408c2684182ab46ac882ead3, type: 3}
   tracks:
   - {fileID: 299950670}
   - {fileID: 540276923}
