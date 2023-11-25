@@ -37,6 +37,11 @@ namespace CodeBase.Services.Backend
             
         }
         
+        public void RemoveCoinsFromWallet(int coinsToRemove)
+        {
+            
+        }
+        
         public void AddCarToCollection(int carIdToAdd)
         {
             
