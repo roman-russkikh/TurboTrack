@@ -1,0 +1,78 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class Player : MonoBehaviour
+{
+    [SerializeField]
+    private float playerSpeed = 0;
+
+    [SerializeField]
+    private Rigidbody2D rigidbody2D = null;
+
+    private int haltMoving = 0;
+
+    private float horizontalSpeed = 0;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+    }
+
+    public void Move(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            return;
+        }
+        horizontalSpeed = context.ReadValue<Vector2>().x;
+        Vector3 velocity = Vector3.zero;
+        velocity.x += horizontalSpeed * playerSpeed;
+        if (haltMoving != 0 && velocity.x != 0)
+        {
+            if (haltMoving < 0 && velocity.x < 0)
+            {
+                velocity.x = 0;
+            }
+            else if (haltMoving > 0 && velocity.x > 0)
+            {
+                velocity.x = 0;
+            }
+        }
+        rigidbody2D.velocity = velocity;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Road")
+        {
+            if (collision.transform.position.x > transform.position.x)
+            {
+                haltMoving = 1;
+            }
+            else
+            {
+                haltMoving = -1;
+            }
+            rigidbody2D.velocity = Vector2.zero;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Road")
+        {
+            haltMoving = 0;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("COLLISION");
+    }
+}
