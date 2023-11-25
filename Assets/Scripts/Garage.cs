@@ -95,14 +95,21 @@ public class Garage : MonoBehaviour
 
     public void BuyCar()
     {
-        Game.Player.PlayerData.PlayerInventory.AddCarToCollection(selectedCarIndex);
-
-        
+        if (Game.Player.PlayerData.PlayerInventory._coinsAmount >= cars[selectedCarIndex].Cost)
+        {
+            Game.Player.PlayerData.PlayerInventory.DecrementCoins(cars[selectedCarIndex].Cost);
+            Game.Player.PlayerData.PlayerInventory.AddCarToCollection(selectedCarIndex);
+        }
     }
 
     public void LoadCarStartMenu()
     {
         Car car = cars[selectedCarIndex];
+
+        if (car == null)
+        {
+            return;
+        }
 
         nameText.text = car.Name;
 

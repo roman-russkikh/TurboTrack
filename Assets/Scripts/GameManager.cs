@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour
     private GameObject leftButton = null;
 
     [SerializeField]
-    private RawImage carImage = null;
+    private Image carImage = null;
 
     [SerializeField]
     private TextMeshProUGUI controlText = null;
@@ -138,7 +138,7 @@ public class GameManager : MonoBehaviour
     {
         Car car = Game.CarsStorage.GetCarById(cars[selectedCarIndex]);
 
-        carImage.texture = car.Sprite.texture;
+        carImage.sprite = car.Sprite;
 
         controlText.text = car.Control.ToString();
 
