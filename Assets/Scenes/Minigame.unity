@@ -418,9 +418,9 @@ MonoBehaviour:
   gameSpeed: 5
   topLeft: {fileID: 536739564}
   topRight: {fileID: 1017202927}
-  timeToSpawnObstacles: 5
-  timeToSpawnCoins: 5
-  timeToIncreaseSpeed: 5
+  timeToSpawnObstacles: 3
+  timeToSpawnCoins: 2
+  timeToIncreaseSpeed: 15
   increaseOfSpeed: 1.5
   maxSpeed: 25
 --- !u!4 &1128939071
