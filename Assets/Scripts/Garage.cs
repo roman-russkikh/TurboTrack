@@ -100,7 +100,7 @@ public class Garage : MonoBehaviour
     {
         if (Game.Player.PlayerData.PlayerInventory._coinsAmount >= cars[selectedCarIndex].Cost)
         {
-            Game.Player.PlayerData.PlayerInventory.DecrementCoins(cars[selectedCarIndex].Cost);
+            Game.Player.PlayerData.PlayerInventory._coinsAmount -= cars[selectedCarIndex].Cost;
             Game.Player.PlayerData.PlayerInventory.AddCarToCollection(cars[selectedCarIndex].Id);
             UpdateCoins();
         }
