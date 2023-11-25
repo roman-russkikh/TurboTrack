@@ -12,16 +12,35 @@ namespace CodeBase.Services.Backend
     public class BackendServices : IService
     {
         private const string JsonUrl = "https://api.openfort.xyz/v1/players"; // add id to update the data
+        private const string JsonUrlWallet = "https://api.openfort.xyz/v1/accounts"; 
+        private const string JsonUrlTransaction = "https://api.openfort.xyz/v1/transaction_intents"; 
 
         private const string PostData = "{ \"name\": \"Roman Ru\" }";
+        private const string PostDataWallet = "{ \"chainId\": 421613, \"player\": \"pla_ddea48d1-0539-44a9-b13a-d681d0358b07\" }";
+
+        private const string CoinMasterPlayerId = "pla_ddea48d1-0539-44a9-b13a-d681d0358b07";
+        private const string CoinContractId = "con_79fdf2f2-2f56-41eb-b3ae-eb5a0b2b7e2e";
+        private const string CoinPolicyId = "pol_e33eb4d4-012c-4771-9e72-cbb50c711de7";
+        
+        
         //private const string PostData = "{ \"name\": \"Roman Ru\", \"metadata\": \"json\" }";
 
         private const string RequestContentType = "application/json";
-        private const string _playerId = "sk_test_67a85e48-566f-5485-9679-77c8cd1b5be6";
+        private const string _authToken = "sk_test_67a85e48-566f-5485-9679-77c8cd1b5be6";
 
+        public void AddCoinsToWallet(int coinsToAdd)
+        {
+            
+        }
+        
+        public void AddCarToCollection(int carIdToAdd)
+        {
+            
+        }
         public BackendServices()
         {
             InitTask();
+            //InitWallet();
         }
         async UniTask InitTask()
         {
@@ -30,21 +49,66 @@ namespace CodeBase.Services.Backend
             {
                 // Create new player
                 var request =
-                    UnityWebRequest.Post(JsonUrl, PostData,
+                    UnityWebRequest.Post(JsonUrl, PostDataWallet,
                         RequestContentType); // use get to get some specific player of all of them if requested with id
 
-                request.SetRequestHeader("Authorization", $"Bearer {_playerId}");
+                request.SetRequestHeader("Authorization", $"Bearer {_authToken}");
                 //request.SetRequestHeader("Content-Type", "application/json");
 
-                await request.SendWebRequest();
+                var registrationRequest = await request.SendWebRequest(); // Update my id
+                
+                //var playerId = registrationRequest.
 
-                Game.Player = new Player(_playerId);
+                Game.Player = new Player(_authToken);
                 Game.Player.Save();
             }
             else
             {
                 Game.Player = player;
             }
+        }
+
+        private async UniTask AddCoinsTask(int coinsToAdd)
+        {
+            var coinsToAssRequest = "{ \"player\": \"pla_ddea48d1-0539-44a9-b13a-d681d0358b07\", " +
+                                    "\"chainId\": 421613," +
+                                    "\"policy\": \"pol_e33eb4d4-012c-4771-9e72-cbb50c711de7\", " +
+                                    "\"optimistic\": false, " +
+                                    "\"interactions\": \"pla_ddea48d1-0539-44a9-b13a-d681d0358b07\",}";
+            
+            /*"interactions": [
+            {
+                "contract" : "con_79fdf2f2-2f56-41eb-b3ae-eb5a0b2b7e2e",
+                "functionName": "transfer",
+                "contract": "0x0576...1B57",
+                "functionArgs": [
+                "con_79fdf2f2-2f56-41eb-b3ae-eb5a0b2b7e2e", // US my player id
+                40,
+                    ]
+            }*/
+            
+            var request =
+                UnityWebRequest.Post(JsonUrlTransaction, PostDataWallet,
+                    RequestContentType); // use get to get some specific player of all of them if requested with id
+
+            request.SetRequestHeader("Authorization", $"Bearer {_authToken}");
+            //request.SetRequestHeader("Content-Type", "application/json");
+
+            await request.SendWebRequest();
+        }
+        
+
+        private async UniTask InitWallet()
+        {
+            // Create new player
+            var request =
+                UnityWebRequest.Post(JsonUrlWallet, PostDataWallet,
+                    RequestContentType); // use get to get some specific player of all of them if requested with id
+
+            request.SetRequestHeader("Authorization", $"Bearer {_authToken}");
+            //request.SetRequestHeader("Content-Type", "application/json");
+
+            await request.SendWebRequest();
         }
 
         private void CreatePlayer()
@@ -63,7 +127,7 @@ namespace CodeBase.Services.Backend
             var payload = "{ \"name\": Roman Ru }";
 
             // Add the header for Authentication
-            www.SetRequestHeader("Authentication", _playerId);
+            www.SetRequestHeader("Authentication", _authToken);
             www.SetRequestHeader("Content-Type", "application/json");
 
             // Send the request and wait for a response
