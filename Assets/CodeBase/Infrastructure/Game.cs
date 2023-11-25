@@ -1,4 +1,5 @@
 using CodeBase.Cars;
+using CodeBase.Data;
 using CodeBase.Infrastructure.States;
 using CodeBase.Logic;
 using CodeBase.Services;
@@ -11,6 +12,7 @@ namespace CodeBase.Infrastructure
   {
     public GameStateMachine StateMachine;
     public static CarStorage CarsStorage;
+    public static Player Player;
 
     public Game(ICoroutineRunner coroutineRunner, LoadingCurtain curtain, CarStorage carsStorage)
     {

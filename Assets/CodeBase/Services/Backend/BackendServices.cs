@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Diagnostics;
+using CodeBase.Data;
+using CodeBase.Infrastructure;
 using Cysharp.Threading.Tasks;
 using Openfort;
 using UnityEngine.Networking;
@@ -11,36 +13,38 @@ namespace CodeBase.Services.Backend
     {
         private const string JsonUrl = "https://api.openfort.xyz/v1/players"; // add id to update the data
 
-        private const string PostData = "{ \"name\": \"Roman Ru\", \"metadata\": \"json\" }";
+        private const string PostData = "{ \"name\": \"Roman Ru\" }";
+        //private const string PostData = "{ \"name\": \"Roman Ru\", \"metadata\": \"json\" }";
 
         private const string RequestContentType = "application/json";
+        private const string _playerId = "sk_test_67a85e48-566f-5485-9679-77c8cd1b5be6";
+
         public BackendServices()
         {
             InitTask();
         }
         async UniTask InitTask()
         {
-            // Create new player
-            var request = UnityWebRequest.Post(JsonUrl, PostData, RequestContentType); // use get to get some specific player of all of them if requested with id
-        
-            request.SetRequestHeader("Authorization", "Bearer sk_test_67a85e48-566f-5485-9679-77c8cd1b5be6");
-            //request.SetRequestHeader("Content-Type", "application/json");
-            
-            await request.SendWebRequest();
-            
-            Debug.Log(request);
-            /*var publishKey = OpenfortSettings.Instance.PublishedKey;
-            var openfort = new OpenfortClient(publishKey);*/
-            /*if (openfort.LoadSessionKey() == null) 
-            { // Load player key from Player prefs
-                /*openfort.CreateSessionKey();
-                // To get session address use sessionKey.Address property
-                openfort.SaveSessionKey();#1#
+            var player = Player.Load();
+            if (player == null)
+            {
+                // Create new player
+                var request =
+                    UnityWebRequest.Post(JsonUrl, PostData,
+                        RequestContentType); // use get to get some specific player of all of them if requested with id
 
-                // After registering the session key, you can then use it like:
-                /*var signature = openfort.SignMessage(message);
-                openfort.SendSignatureSessionRequest(sessionId, signature);#1#
-            }*/
+                request.SetRequestHeader("Authorization", $"Bearer {_playerId}");
+                //request.SetRequestHeader("Content-Type", "application/json");
+
+                await request.SendWebRequest();
+
+                Game.Player = new Player(_playerId);
+                Game.Player.Save();
+            }
+            else
+            {
+                Game.Player = player;
+            }
         }
 
         private void CreatePlayer()
@@ -59,7 +63,7 @@ namespace CodeBase.Services.Backend
             var payload = "{ \"name\": Roman Ru }";
 
             // Add the header for Authentication
-            www.SetRequestHeader("Authentication", "Bearer sk_test_67a85e48-566f-5485-9679-77c8cd1b5be6");
+            www.SetRequestHeader("Authentication", _playerId);
             www.SetRequestHeader("Content-Type", "application/json");
 
             // Send the request and wait for a response

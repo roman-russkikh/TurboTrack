@@ -12,8 +12,8 @@ namespace CodeBase.Data
 
         public PlayerInventory()
         {
-            //var carAmountInCollection = Game.CarsStorage
-            _ownedCarIds = new List<int>();
+            var carAmountInCollection = Game.CarsStorage.Cars.Count;
+            _ownedCarIds = new List<int>(carAmountInCollection);
         }
     }
 }
