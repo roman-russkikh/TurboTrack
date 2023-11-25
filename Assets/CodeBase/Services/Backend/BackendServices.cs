@@ -34,12 +34,12 @@ namespace CodeBase.Services.Backend
 
         public void AddCoinsToWallet(int coinsToAdd)
         {
-            
+            AddCoinsTask(coinsToAdd);
         }
         
         public void RemoveCoinsFromWallet(int coinsToRemove)
         {
-            
+            RemoveCoinsTask(coinsToRemove);
         }
         
         public void AddCarToCollection(int carIdToAdd)
@@ -49,7 +49,6 @@ namespace CodeBase.Services.Backend
         public BackendServices()
         {
             InitTask();
-            //InitWallet();
         }
         async UniTask InitTask()
         {
@@ -82,6 +81,7 @@ namespace CodeBase.Services.Backend
 
         private async UniTask AddCoinsTask(int coinsToAdd)
         {
+            var mintCoinsToAdd = (ulong)coinsToAdd * 1000000000000000000;
             var myPlayerId = Game.Player.ID;
             string coinToAddRequest = $"{{ " +
                                       $"\"player\": \"{CoinMasterPlayerId}\", " +
@@ -91,25 +91,9 @@ namespace CodeBase.Services.Backend
                                       $"\"interactions\": [{{ " +
                                       $"\"contract\": \"{CoinContractId}\", " +
                                       $"\"functionName\": \"transfer\", " +
-                                      $"\"functionArgs\": [{{ \"to\": \"{myPlayerId}\", \"amount\": {coinsToAdd} }}] " +
+                                      $"\"functionArgs\": [\"{myPlayerId}\", \"{mintCoinsToAdd}\"] " +
                                       $"}}] }}";
             
-            
-            /*var coinsToAssRequest = "{ \"player\": \"pla_ddea48d1-0539-44a9-b13a-d681d0358b07\", " +
-                                    "\"chainId\": 421613," +
-                                    "\"policy\": \"pol_e33eb4d4-012c-4771-9e72-cbb50c711de7\", " +
-                                    "\"optimistic\": false, " +
-                                    "\"interactions\": \"pla_ddea48d1-0539-44a9-b13a-d681d0358b07\",}";*/
-            
-            /*"interactions": [
-            {
-                "contract" : CoinContractId,
-                "functionName": "transfer",
-                "functionArgs": [
-                "to" : myPlayerId, // US my player id
-                "amount" :coinsToAdd,
-                    ]
-            }*/
             
             var request =
                 UnityWebRequest.Post(JsonUrlTransaction, coinToAddRequest,
@@ -120,6 +104,34 @@ namespace CodeBase.Services.Backend
 
             await request.SendWebRequest();
             Debug.Log("Done");
+        }
+        
+        private async UniTask RemoveCoinsTask(int coinsToRemove)
+        {
+            var mintCoinsAmountToRemove = (ulong)coinsToRemove * 1000000000000000000;
+            
+            var myPlayerId = Game.Player.ID;
+            string coinToAddRequest = $"{{ " +
+                                      $"\"player\": \"{myPlayerId}\", " +
+                                      $"\"chainId\": \"{ChainId}\", " +
+                                      $"\"policy\": \"{CoinPolicyId}\", " +
+                                      $"\"optimistic\": false, " +
+                                      $"\"interactions\": [{{ " +
+                                      $"\"contract\": \"{CoinContractId}\", " +
+                                      $"\"functionName\": \"transfer\", " +
+                                      $"\"functionArgs\": [\"{CoinMasterPlayerId}\", \"{mintCoinsAmountToRemove}\"] " +
+                                      $"}}] }}";
+            
+            
+            var request =
+                UnityWebRequest.Post(JsonUrlTransaction, coinToAddRequest,
+                    RequestContentType); // use get to get some specific player of all of them if requested with id
+
+            request.SetRequestHeader("Authorization", $"Bearer {_authToken}");
+            //request.SetRequestHeader("Content-Type", "application/json");
+
+            await request.SendWebRequest();
+            Debug.Log("Done removed");
         }
         
 
