@@ -62,6 +62,14 @@ public class Player : MonoBehaviour
             }
             rigidbody2D.velocity = Vector2.zero;
         }
+        else if (collision.tag == "Obstacle")
+        {
+            GameManager.instance.LoseLife();
+        }
+        else if (collision.tag == "Coin")
+        {
+            GameManager.instance.GetCoin();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)

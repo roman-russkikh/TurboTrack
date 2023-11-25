@@ -14,9 +14,6 @@ public class RoadManager : MonoBehaviour
     [SerializeField]
     private Camera cameraManager = null;
 
-    [SerializeField]
-    private float speed = 0;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +30,7 @@ public class RoadManager : MonoBehaviour
     void CheckSprite(SpriteRenderer sprite)
     {
         Vector3 position = sprite.transform.position;
-        position.y -= speed;
+        position.y -= GameManager.instance.gameSpeed;
         if (cameraManager.WorldToViewportPoint(position).y < -1)
         {
             position.y += (sprite.size.y * 2) - 5;
