@@ -1,7 +1,9 @@
+using CodeBase.Infrastructure;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -71,14 +73,82 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject pauseButton = null;
 
+    [SerializeField]
+    private GameObject rightButton = null;
+
+    [SerializeField]
+    private GameObject leftButton = null;
+
+
+    [SerializeField]
+    private TextMeshProUGUI controlText = null;
+
+    [SerializeField]
+    private TextMeshProUGUI maxLivesText = null;
+
+    private Car selectedCar = null;
+
+    private List<int> cars = null;
+
+    private int selectedCarIndex = 0;
+
+    public Player player = null;
+
     private void Awake()
     {
         instance = this;
+        PauseGame();
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        //TODO
+        //var cars = Game.Player.PlayerData.PlayerInventory._ownedCarIds;
+        cars = new List<int>() { 2525, 3636 };
+
+        selectedCarIndex = 0;
+        selectedCar = LoadCarStartMenu();
+
+        if (cars.Count <= 1)
+        {
+            rightButton.SetActive(false);
+            leftButton.SetActive(false);
+        }
+    }
+
+    public void ChangeCarStartMenu(int indexAdditive)
+    {
+        selectedCarIndex += indexAdditive;
+
+        if (selectedCarIndex >= cars.Count)
+        {
+            selectedCarIndex = 0;
+        }
+        else if (selectedCarIndex < 0)
+        {
+            selectedCarIndex = cars.Count - 1;
+        }
+
+        selectedCar = LoadCarStartMenu();
+    }
+
+    public Car LoadCarStartMenu()
+    {
+        Car carToReturn = Game.CarsStorage.GetCarById(cars[selectedCarIndex]);
+        Debug.Log(carToReturn.Name);
+
+        controlText.text = carToReturn.Control.ToString();
+
+        maxLivesText.text = carToReturn.MaxLives.ToString();
+
+        return carToReturn;
+    }
+
+    public void StartRace()
+    {
+        player.carID = cars[selectedCarIndex];
+        player.gameObject.SetActive(true);
         timerSpawnCoins = timeToSpawnCoins + Time.time;
         timerSpawnObstacles = timeToSpawnObstacles + Time.time;
         timerSpeed = timeToIncreaseSpeed + Time.time;
@@ -88,6 +158,7 @@ public class GameManager : MonoBehaviour
         timesInstantiateAtTheSameTime = 1;
         coins = 0;
         UpdateCoinsText();
+        ResumeGame();
     }
 
     // Update is called once per frame
@@ -148,6 +219,7 @@ public class GameManager : MonoBehaviour
 
     public void QuitGame()
     {
+        SceneManager.LoadScene("GameScene");
         Debug.Log("QUIT");
     }
 

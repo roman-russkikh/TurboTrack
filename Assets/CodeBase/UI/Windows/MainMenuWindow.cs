@@ -2,6 +2,7 @@
 using CodeBase.Services.PersistentProgress;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace CodeBase.UI.Windows.Shop
@@ -39,7 +40,7 @@ namespace CodeBase.UI.Windows.Shop
 
     private void StartMiniGame()
     {
-      Debug.Log("Start minigame");
+            SceneManager.LoadScene("Minigame");
     }
     
     private void OpenGaragePopUp()

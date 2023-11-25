@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cars:
   - Id: 2525
-    Sprite: {fileID: 0}
+    Sprite: {fileID: 21300000, guid: cd251ac2c77c6074fa12e370363acbc3, type: 3}
     Cost: 50
     Name: Hell Razer
     Velocity: 5
@@ -22,7 +22,7 @@ MonoBehaviour:
     MaxLives: 3
     Control: 1
   - Id: 3636
-    Sprite: {fileID: 0}
+    Sprite: {fileID: 21300000, guid: cd251ac2c77c6074fa12e370363acbc3, type: 3}
     Cost: 100
     Name: Bloody Sponge
     Velocity: 6
