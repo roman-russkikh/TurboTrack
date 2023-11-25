@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using CodeBase.Infrastructure.States;
+using CodeBase.Services.Backend;
 using CodeBase.Services.PersistentProgress;
 using CodeBase.Services.Randomizer;
 using CodeBase.Services.StaticData;
@@ -20,18 +21,20 @@ namespace CodeBase.Infrastructure.Factory
     private GameObject _heroGameObject;
     private readonly IWindowService _windowService;
     private readonly IGameStateMachine _stateMachine;
+    private readonly BackendServices _backendServices;
 
     public GameFactory(
       IStaticDataService staticData, 
       IRandomService randomService, 
       IPersistentProgressService persistentProgressService, 
-      IWindowService windowService, IGameStateMachine stateMachine)
+      IWindowService windowService, IGameStateMachine stateMachine, BackendServices backendServices)
     {
       _staticData = staticData;
       _randomService = randomService;
       _persistentProgressService = persistentProgressService;
       _windowService = windowService;
       _stateMachine = stateMachine;
+      _backendServices = backendServices;
     }
     private void Register(ISavedProgressReader progressReader)
     {

@@ -1,5 +1,6 @@
 ﻿using CodeBase.Infrastructure.Factory;
 using CodeBase.Services;
+using CodeBase.Services.Backend;
 using CodeBase.Services.Input;
 using CodeBase.Services.PersistentProgress;
 using CodeBase.Services.Randomizer;
@@ -38,6 +39,7 @@ namespace CodeBase.Infrastructure.States
     {
       RegisterStaticDataService();
       
+      _services.RegisterSingle<BackendServices>(new BackendServices());
       _services.RegisterSingle<IGameStateMachine>(_stateMachine);
       _services.RegisterSingle<IInputService>(InputService());
       _services.RegisterSingle<IRandomService>(new RandomService());
@@ -50,7 +52,8 @@ namespace CodeBase.Infrastructure.States
         _services.Single<IRandomService>(),
         _services.Single<IPersistentProgressService>(),
         _services.Single<IWindowService>(),
-        _services.Single<IGameStateMachine>()
+        _services.Single<IGameStateMachine>(),
+        _services.Single<BackendServices>()
         ));
       
       _services.RegisterSingle<ISaveLoadService>(new SaveLoadService(
