@@ -13,6 +13,9 @@ namespace CodeBase.Data
         [JsonIgnore]
         public PlayerData PlayerData => _playerData;
 
+        [JsonIgnore]
+        public string ID => _id;
+
         public Player(string id)
         {
             _id = id;
