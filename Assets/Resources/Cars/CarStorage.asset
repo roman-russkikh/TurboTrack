@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cars:
   - Id: 2525
-    Sprite: {fileID: 0}
+    Sprite: {fileID: -1096543379, guid: 6636fdd45bc639c4994af4a5a168a037, type: 3}
     Cost: 50
     Name: Hell Razer
     Velocity: 5
@@ -22,9 +22,33 @@ MonoBehaviour:
     MaxLives: 3
     Control: 1
   - Id: 3636
-    Sprite: {fileID: 0}
+    Sprite: {fileID: 315538022, guid: 6636fdd45bc639c4994af4a5a168a037, type: 3}
     Cost: 100
     Name: Bloody Sponge
+    Velocity: 6
+    MaxSpeed: 105
+    MaxLives: 4
+    Control: 2
+  - Id: 3636
+    Sprite: {fileID: 117544489, guid: 6636fdd45bc639c4994af4a5a168a037, type: 3}
+    Cost: 150
+    Name: Pocket Rocket
+    Velocity: 6
+    MaxSpeed: 105
+    MaxLives: 4
+    Control: 2
+  - Id: 3636
+    Sprite: {fileID: -412151970, guid: 6636fdd45bc639c4994af4a5a168a037, type: 3}
+    Cost: 200
+    Name: Atom Accelerator
+    Velocity: 6
+    MaxSpeed: 105
+    MaxLives: 4
+    Control: 2
+  - Id: 3636
+    Sprite: {fileID: 529649905, guid: 6636fdd45bc639c4994af4a5a168a037, type: 3}
+    Cost: 250
+    Name: TeenyTurbine
     Velocity: 6
     MaxSpeed: 105
     MaxLives: 4
