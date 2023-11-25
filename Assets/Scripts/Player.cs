@@ -49,6 +49,7 @@ public class Player : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
+        Debug.Log("III");
         if (context.started)
         {
             return;
