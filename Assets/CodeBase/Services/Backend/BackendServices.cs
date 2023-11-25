@@ -3,7 +3,9 @@ using System.Diagnostics;
 using CodeBase.Data;
 using CodeBase.Infrastructure;
 using Cysharp.Threading.Tasks;
+using Newtonsoft.Json;
 using Openfort;
+using UnityEngine;
 using UnityEngine.Networking;
 using Debug = UnityEngine.Debug;
 
@@ -21,6 +23,8 @@ namespace CodeBase.Services.Backend
         private const string CoinMasterPlayerId = "pla_ddea48d1-0539-44a9-b13a-d681d0358b07";
         private const string CoinContractId = "con_79fdf2f2-2f56-41eb-b3ae-eb5a0b2b7e2e";
         private const string CoinPolicyId = "pol_e33eb4d4-012c-4771-9e72-cbb50c711de7";
+
+        private const int ChainId = 421613;
         
         
         //private const string PostData = "{ \"name\": \"Roman Ru\", \"metadata\": \"json\" }";
@@ -29,6 +33,11 @@ namespace CodeBase.Services.Backend
         private const string _authToken = "sk_test_67a85e48-566f-5485-9679-77c8cd1b5be6";
 
         public void AddCoinsToWallet(int coinsToAdd)
+        {
+            
+        }
+        
+        public void RemoveCoinsFromWallet(int coinsToRemove)
         {
             
         }
@@ -44,22 +53,25 @@ namespace CodeBase.Services.Backend
         }
         async UniTask InitTask()
         {
+            
             var player = Data.Player.Load();
-            if (player == null)
+            if (player == null || player.ID == _authToken)
             {
                 // Create new player
                 var request =
-                    UnityWebRequest.Post(JsonUrl, PostDataWallet,
+                    UnityWebRequest.Post(JsonUrl, PostData,
                         RequestContentType); // use get to get some specific player of all of them if requested with id
 
                 request.SetRequestHeader("Authorization", $"Bearer {_authToken}");
                 //request.SetRequestHeader("Content-Type", "application/json");
 
                 var registrationRequest = await request.SendWebRequest(); // Update my id
-                
-                //var playerId = registrationRequest.
+                var resultString = registrationRequest.downloadHandler.text;
+               
+                // Extract the value associated with the "id" key
+                string playerId = GetJsonValue(resultString, "id");
 
-                Game.Player = new Data.Player(_authToken);
+                Game.Player = new Data.Player(playerId);
                 Game.Player.Save();
             }
             else
@@ -70,31 +82,44 @@ namespace CodeBase.Services.Backend
 
         private async UniTask AddCoinsTask(int coinsToAdd)
         {
-            var coinsToAssRequest = "{ \"player\": \"pla_ddea48d1-0539-44a9-b13a-d681d0358b07\", " +
+            var myPlayerId = Game.Player.ID;
+            string coinToAddRequest = $"{{ " +
+                                      $"\"player\": \"{CoinMasterPlayerId}\", " +
+                                      $"\"chainId\": \"{ChainId}\", " +
+                                      $"\"policy\": \"{CoinPolicyId}\", " +
+                                      $"\"optimistic\": false, " +
+                                      $"\"interactions\": [{{ " +
+                                      $"\"contract\": \"{CoinContractId}\", " +
+                                      $"\"functionName\": \"transfer\", " +
+                                      $"\"functionArgs\": [{{ \"to\": \"{myPlayerId}\", \"amount\": {coinsToAdd} }}] " +
+                                      $"}}] }}";
+            
+            
+            /*var coinsToAssRequest = "{ \"player\": \"pla_ddea48d1-0539-44a9-b13a-d681d0358b07\", " +
                                     "\"chainId\": 421613," +
                                     "\"policy\": \"pol_e33eb4d4-012c-4771-9e72-cbb50c711de7\", " +
                                     "\"optimistic\": false, " +
-                                    "\"interactions\": \"pla_ddea48d1-0539-44a9-b13a-d681d0358b07\",}";
+                                    "\"interactions\": \"pla_ddea48d1-0539-44a9-b13a-d681d0358b07\",}";*/
             
             /*"interactions": [
             {
-                "contract" : "con_79fdf2f2-2f56-41eb-b3ae-eb5a0b2b7e2e",
+                "contract" : CoinContractId,
                 "functionName": "transfer",
-                "contract": "0x0576...1B57",
                 "functionArgs": [
-                "con_79fdf2f2-2f56-41eb-b3ae-eb5a0b2b7e2e", // US my player id
-                40,
+                "to" : myPlayerId, // US my player id
+                "amount" :coinsToAdd,
                     ]
             }*/
             
             var request =
-                UnityWebRequest.Post(JsonUrlTransaction, PostDataWallet,
+                UnityWebRequest.Post(JsonUrlTransaction, coinToAddRequest,
                     RequestContentType); // use get to get some specific player of all of them if requested with id
 
             request.SetRequestHeader("Authorization", $"Bearer {_authToken}");
             //request.SetRequestHeader("Content-Type", "application/json");
 
             await request.SendWebRequest();
+            Debug.Log("Done");
         }
         
 
@@ -148,5 +173,12 @@ namespace CodeBase.Services.Backend
             }
         }
         
+        string GetJsonValue(string jsonString, string key)
+        {
+            int startIndex = jsonString.IndexOf("\"" + key + "\":") + key.Length + 5; // 4 is for the characters ": "
+            int endIndex = jsonString.IndexOf("\"", startIndex + 1); // Look for the next quotation mark after the starting quote
+
+            return jsonString.Substring(startIndex, endIndex - startIndex);
+        }
     }
 }
