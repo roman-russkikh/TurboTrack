@@ -19,9 +19,13 @@ MonoBehaviour:
     Name: Hell Razer
     Velocity: 5
     MaxSpeed: 100
+    MaxLives: 3
+    Control: 1
   - Id: 3636
     Sprite: {fileID: 0}
     Cost: 100
     Name: Bloody Sponge
     Velocity: 6
     MaxSpeed: 105
+    MaxLives: 4
+    Control: 2

@@ -10,4 +10,6 @@ public class Car
     [SerializeField] public string Name;
     [SerializeField] public int Velocity;
     [SerializeField] public int MaxSpeed;
+    [SerializeField] public int MaxLives;
+    [SerializeField] public int Control;
 }
