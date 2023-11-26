@@ -82,6 +82,10 @@ namespace CodeBase.UI.Windows.Shop
 
     private void SetClaimButtonActivity(bool state)
     {
+            if (_claimCoinsButton == null)
+            {
+                return;
+            }
       _claimCoinsButton.interactable = state;
     }
   }
