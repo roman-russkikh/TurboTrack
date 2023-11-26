@@ -4287,6 +4287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car
       objectReference: {fileID: 0}
+    - target: {fileID: 3254829082577735609, guid: eee0b0e8c8279fb4ebb001ce82324969, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6890135080710953544, guid: eee0b0e8c8279fb4ebb001ce82324969, type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.4

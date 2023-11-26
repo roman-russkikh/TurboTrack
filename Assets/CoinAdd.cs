@@ -14,6 +14,17 @@ public class CoinAdd : MonoBehaviour
     public GameObject fade;
     private int vueltas = 0;
 
+    private void Start()
+    {
+        StartCoroutine(StartGame());
+    }
+
+    private IEnumerator StartGame()
+    {
+        yield return new WaitForSeconds(1.1f);
+        GetComponent<Animator>().enabled = true;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag.Equals("Finish"))
