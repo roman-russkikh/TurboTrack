@@ -125,6 +125,8 @@ public class Garage : MonoBehaviour
             Game.Player.PlayerData.PlayerInventory._coinsAmount -= cars[selectedCarIndex].Cost;
             Game.Player.PlayerData.PlayerInventory.AddCarToCollection(cars[selectedCarIndex].Id);
             UpdateCoins();
+            buyButton.SetActive(false);
+            selectButton.SetActive(true);
         }
     }
 
