@@ -69,7 +69,7 @@ public class Garage : MonoBehaviour
 
         if (Game.Player.PlayerData.PlayerInventory._ownedCarIds.Count == 0)
         {
-            carImage.gameObject.SetActive(false);
+            carRenderer.gameObject.SetActive(false);
         }
         else
         {
@@ -125,6 +125,8 @@ public class Garage : MonoBehaviour
             Game.Player.PlayerData.PlayerInventory._coinsAmount -= cars[selectedCarIndex].Cost;
             Game.Player.PlayerData.PlayerInventory.AddCarToCollection(cars[selectedCarIndex].Id);
             UpdateCoins();
+            buyButton.SetActive(false);
+            selectButton.SetActive(true);
         }
     }
 
@@ -142,9 +144,9 @@ public class Garage : MonoBehaviour
             return;
         }
 
-        if (!carImage.gameObject.activeInHierarchy)
+        if (!carRenderer.gameObject.activeInHierarchy)
         {
-            carImage.gameObject.SetActive(true);
+            carRenderer.gameObject.SetActive(true);
         }
 
         nameText.text = car.Name;
