@@ -144,9 +144,9 @@ public class Garage : MonoBehaviour
             return;
         }
 
-        if (!carImage.gameObject.activeInHierarchy)
+        if (!carRenderer.gameObject.activeInHierarchy)
         {
-            carImage.gameObject.SetActive(true);
+            carRenderer.gameObject.SetActive(true);
         }
 
         nameText.text = car.Name;
