@@ -127,6 +127,11 @@ public class Garage : MonoBehaviour
             UpdateCoins();
             buyButton.SetActive(false);
             selectButton.SetActive(true);
+
+            if (!carRenderer.gameObject.activeInHierarchy)
+            {
+                carRenderer.gameObject.SetActive(true);
+            }
         }
     }
 
@@ -144,10 +149,6 @@ public class Garage : MonoBehaviour
             return;
         }
 
-        if (!carRenderer.gameObject.activeInHierarchy)
-        {
-            carRenderer.gameObject.SetActive(true);
-        }
 
         nameText.text = car.Name;
 
