@@ -10,50 +10,50 @@ using UnityEngine.UI;
 
 namespace CodeBase.UI.Windows.Shop
 {
-  public class MainMenuWindow : MonoBehaviour
-  {
-    [SerializeField] private Button _startMiniGameButton;
-    [SerializeField] private Button _openGarageButton;
-    [SerializeField] private GameObject _garagePanel;
-    [SerializeField] private GameObject _popUpNoCars;
+    public class MainMenuWindow : MonoBehaviour
+    {
+        [SerializeField] private Button _startMiniGameButton;
+        [SerializeField] private Button _openGarageButton;
+        [SerializeField] private GameObject _garagePanel;
+        [SerializeField] private GameObject _popUpNoCars;
 
-    [SerializeField] private Button _claimCoinsButton;
-    [SerializeField] private CoinAdd _coinController;
-    
+        [SerializeField] private Button _claimCoinsButton;
+        [SerializeField] private CoinAdd _coinController;
+
         private void OnEnable()
-    {
-      Initialize();
-    }
+        {
+            Initialize();
+        }
 
-    private void OnDisable()
-    {
-      Cleanup();
-    }
+        private void OnDisable()
+        {
+            Cleanup();
+        }
 
-    private void Initialize()
-    {
-      SetClaimButtonActivity(true);
-      InitSubscriptions();
-    }
+        private void Initialize()
+        {
+            SetClaimButtonActivity(true);
+            InitSubscriptions();
+        }
 
-    private  void InitSubscriptions()
-    {
-      _startMiniGameButton.onClick.AddListener(StartMiniGame);
-      _openGarageButton.onClick.AddListener(OpenGaragePopUp);
-      _claimCoinsButton.onClick.AddListener(GiveIdleCoinsToPlayer);
-      BackendServices.OnCoinsAddedToWallet += () => SetClaimButtonActivity(true);
-    }
+        private void InitSubscriptions()
+        {
+            _startMiniGameButton.onClick.AddListener(StartMiniGame);
+            _openGarageButton.onClick.AddListener(OpenGaragePopUp);
+            _claimCoinsButton.onClick.AddListener(GiveIdleCoinsToPlayer);
+            BackendServices.OnCoinsAddedToWallet += () => SetClaimButtonActivity(true);
+        }
 
-    private void Cleanup()
-    {
-      BackendServices.OnCoinsAddedToWallet -= () => SetClaimButtonActivity(true);
-      _claimCoinsButton.onClick.RemoveAllListeners();
-      _startMiniGameButton.onClick.RemoveAllListeners();
-      _openGarageButton.onClick.RemoveAllListeners();
-    }
+        private void Cleanup()
+        {
+            BackendServices.OnCoinsAddedToWallet -= () => SetClaimButtonActivity(true);
+            _claimCoinsButton.onClick.RemoveAllListeners();
+            _startMiniGameButton.onClick.RemoveAllListeners();
+            _openGarageButton.onClick.RemoveAllListeners();
+        }
 
-    private void StartMiniGame()
-    {
+        private void StartMiniGame()
+        {
             if (Game.Player.PlayerData.PlayerInventory._ownedCarIds.Count > 0)
             {
                 SceneManager.LoadScene("Minigame");
@@ -64,29 +64,33 @@ namespace CodeBase.UI.Windows.Shop
                 _startMiniGameButton.transform.parent.gameObject.SetActive(false);
                 _popUpNoCars.SetActive(true);
             }
-    }
-    
-    private void OpenGaragePopUp()
-    {
+        }
+
+        private void OpenGaragePopUp()
+        {
             _openGarageButton.transform.parent.gameObject.SetActive(false);
             _startMiniGameButton.transform.parent.gameObject.SetActive(false);
             _garagePanel.SetActive(true);
-    }
+        }
 
-    private void GiveIdleCoinsToPlayer()
-    {
-      Game.Player.PlayerData.PlayerInventory.IncrementCoins(_coinController.coins);
-      SetClaimButtonActivity(false);
-      _coinController.coins = 0;
-    }
+        private void GiveIdleCoinsToPlayer()
+        {
+            if (_coinController.coins <= 0)
+                return;
 
-    private void SetClaimButtonActivity(bool state)
-    {
+            Game.Player.PlayerData.PlayerInventory.IncrementCoins(_coinController.coins);
+            SetClaimButtonActivity(false);
+            _coinController.coins = 0;
+        }
+
+        private void SetClaimButtonActivity(bool state)
+        {
             if (_claimCoinsButton == null)
             {
                 return;
             }
-      _claimCoinsButton.interactable = state;
+
+            _claimCoinsButton.interactable = state;
+        }
     }
-  }
 }
