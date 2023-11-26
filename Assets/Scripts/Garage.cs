@@ -69,7 +69,7 @@ public class Garage : MonoBehaviour
 
         if (Game.Player.PlayerData.PlayerInventory._ownedCarIds.Count == 0)
         {
-            carImage.gameObject.SetActive(false);
+            carRenderer.gameObject.SetActive(false);
         }
         else
         {
