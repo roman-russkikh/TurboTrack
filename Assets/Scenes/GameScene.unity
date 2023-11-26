@@ -2434,6 +2434,12 @@ PrefabInstance:
       value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4674944658867346866, guid: 29d7dbfa8d3fd8948aa31d60cd361d8f, type: 3}
+      propertyPath: m_text
+      value: 'Buy a car to play the
+
+        minigame'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674944658867346866, guid: 29d7dbfa8d3fd8948aa31d60cd361d8f, type: 3}
       propertyPath: m_fontSize
       value: 8
       objectReference: {fileID: 0}
