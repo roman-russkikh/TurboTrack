@@ -12,6 +12,7 @@ public class CoinAdd : MonoBehaviour
     public int coins = 0;
     public TMP_Text coinText;
     public GameObject fade;
+    private int vueltas = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,22 +22,19 @@ public class CoinAdd : MonoBehaviour
             coinInst.GetComponent<AudioSource>().Play();
             Destroy(coinInst, 0.5f);
             coins++;
-            if (coins == 5)
+            vueltas++;
+            if (vueltas == 3)
             {
-                trackNumber = 1;
-                StartCoroutine(TransicionCambio());
-            }
-            else if (coins >= 10)
-            {
-                if (coins == 10)
+                if (trackNumber < 2)
                 {
-                    trackNumber = 2;
-                    StartCoroutine(TransicionCambio());
-                } else
-                {
-                    ChangeTrack();
+                    trackNumber++;
                 }
-
+                else
+                {
+                    trackNumber = 0;
+                }
+                StartCoroutine(TransicionCambio());
+                vueltas = 0;
             }
             coinText.text = coins.ToString();
         }
@@ -67,7 +65,8 @@ public class CoinAdd : MonoBehaviour
                 if (Random.Range(0, 2) == 0)
                 {
                     GetComponent<Animator>().Play("Track3RaceAnim1");
-                } else
+                }
+                else
                 {
                     GetComponent<Animator>().Play("Track3RaceAnim2");
                 }
